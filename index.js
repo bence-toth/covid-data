@@ -131,6 +131,15 @@ Promise.all(requests)
 
     recoveredParser.on('end', () => {
       output.forEach(countryData => {
+        if (slug.includes('diamond-princess')) {
+          return
+        }
+        if (slug.includes('ms-zaandam')) {
+          return
+        }
+        if (slug.includes('grand-princess')) {
+          return
+        }
         const {slug, deaths, confirmed, recovered} = countryData
         fs.writeFileSync(`data/${slug}.json`, JSON.stringify({
           cumulativeDeaths: deaths || null,
