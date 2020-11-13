@@ -103,6 +103,7 @@ Promise.all(requests)
           cumulativeDeaths: deaths,
           dailyDeaths: calculateDailyData(deaths),
           confirmedCases: confirmed,
+          dailyConfirmedCases: calculateDailyData(confirmed),
         }));
       })
     })
