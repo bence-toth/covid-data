@@ -2,13 +2,13 @@ const fetch = require('node-fetch')
 const parse = require('csv-parse')
 const fs = require('fs')
 
-const parser = parse({
-  delimiter: ','
-})
-
 const output = []
 
-const sourceFile = 'https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_global.csv'
+const sourceFiles = {
+  deaths: 'https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_global.csv',
+  confirmed: 'https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv',
+  recovered: 'https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_recovered_global.csv'
+}
 
 const slugify = string => string.replace(/\s+/g, '-').toLowerCase().replace(/[^a-z-]+/g, "")
 
@@ -21,7 +21,8 @@ const generateSlug = ({country, province}) => {
   }
 }
 
-let isHeaderRow = true
+let isDeathsHeaderRow = true
+let isConfirmedHeaderRow = true
 
 const calculateDailyData = data => {
   const dailyData = []
@@ -35,13 +36,23 @@ const calculateDailyData = data => {
   return dailyData
 }
 
-fetch(sourceFile)
-  .then(response => response.text())
-  .then(data => {
-    parser.on('readable', () => {
+const requests = [
+  fetch(sourceFiles.deaths)
+    .then(response => response.text()),
+  fetch(sourceFiles.confirmed)
+    .then(response => response.text())
+]
+
+Promise.all(requests)
+  .then(([deaths, confirmed]) => {
+    const deathsParser = parse({
+      delimiter: ','
+    })
+
+    deathsParser.on('readable', () => {
       let record
-      while (record = parser.read()) {
-        if (!isHeaderRow) {
+      while (record = deathsParser.read()) {
+        if (!isDeathsHeaderRow) {
           const slug = generateSlug({
             province: record[0],
             country: record[1]
@@ -52,21 +63,50 @@ fetch(sourceFile)
           })
         }
         else {
-          isHeaderRow = false
+          isDeathsHeaderRow = false
         }
       }
     })
 
-    parser.on('end', () => {
-      output.slice(10).forEach(countryData => {
-        const {slug, deaths} = countryData
+    deathsParser.write(deaths)
+    deathsParser.end()
+
+    const confirmedParser = parse({
+      delimiter: ','
+    })
+
+    confirmedParser.on('readable', () => {
+      let record
+      while (record = confirmedParser.read()) {
+        if (!isConfirmedHeaderRow) {
+          const slug = generateSlug({
+            province: record[0],
+            country: record[1]
+          })
+          output.forEach(country => {
+            if (country.slug === slug) {
+              country.confirmed = record.slice(4).map(Number)
+            }
+          })
+        }
+        else {
+          isConfirmedHeaderRow = false
+        }
+      }
+    })
+
+    confirmedParser.on('end', () => {
+      console.log(output.slice(10))
+      output.slice(0, 10).forEach(countryData => {
+        const {slug, deaths, confirmed} = countryData
         fs.writeFileSync(`data/${slug}.json`, JSON.stringify({
           cumulativeDeaths: deaths,
-          dailyDeaths: calculateDailyData(deaths)
+          dailyDeaths: calculateDailyData(deaths),
+          confirmedCases: confirmed,
         }));
       })
     })
 
-    parser.write(data)
-    parser.end()
+    confirmedParser.write(confirmed)
+    confirmedParser.end()
   })
