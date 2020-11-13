@@ -1,0 +1,22 @@
+{
+  "name": "covid-data",
+  "version": "1.0.0",
+  "description": "Download and split COVID data",
+  "scripts": {
+    "start": "node ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bence-toth/covid-data.git"
+  },
+  "keywords": [
+    "COVID-19",
+    "data"
+  ],
+  "author": "Bence A. Toth",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bence-toth/covid-data/issues"
+  },
+  "homepage": "https://github.com/bence-toth/covid-data#readme"
+}
