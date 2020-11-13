@@ -10,7 +10,7 @@ const sourceFiles = {
   recovered: 'https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_recovered_global.csv'
 }
 
-const slugify = string => string.replace(/\s+/g, '-').toLowerCase().replace(/[^a-z-]+/g, "")
+const slugify = string => string.replace(/\s+/g, '-').toLowerCase().replace(/[^a-z-]+/g, '')
 
 const generateSlug = ({country, province}) => {
   if (!province.length) {
@@ -23,6 +23,7 @@ const generateSlug = ({country, province}) => {
 
 let isDeathsHeaderRow = true
 let isConfirmedHeaderRow = true
+let isRecoveredHeaderRow = true
 
 const calculateDailyData = data => {
   const dailyData = []
@@ -40,11 +41,13 @@ const requests = [
   fetch(sourceFiles.deaths)
     .then(response => response.text()),
   fetch(sourceFiles.confirmed)
-    .then(response => response.text())
+    .then(response => response.text()),
+  fetch(sourceFiles.recovered)
+    .then(response => response.text()),
 ]
 
 Promise.all(requests)
-  .then(([deaths, confirmed]) => {
+  .then(([deaths, confirmed, recovered]) => {
     const deathsParser = parse({
       delimiter: ','
     })
@@ -83,11 +86,9 @@ Promise.all(requests)
             province: record[0],
             country: record[1]
           })
-          output.forEach(country => {
-            if (country.slug === slug) {
-              country.confirmed = record.slice(4).map(Number)
-            }
-          })
+          output
+            .find(country => (country.slug === slug))
+            .confirmed = record.slice(4).map(Number)
         }
         else {
           isConfirmedHeaderRow = false
@@ -95,18 +96,52 @@ Promise.all(requests)
       }
     })
 
-    confirmedParser.on('end', () => {
-      output.slice(0, 10).forEach(countryData => {
-        const {slug, deaths, confirmed} = countryData
+    confirmedParser.write(confirmed)
+    confirmedParser.end()
+
+    const recoveredParser = parse({
+      delimiter: ','
+    })
+
+    recoveredParser.on('readable', () => {
+      let record
+      while (record = recoveredParser.read()) {
+        if (!isRecoveredHeaderRow) {
+          const slug = generateSlug({
+            province: record[0],
+            country: record[1]
+          })
+          const foundCountry = output
+            .find(country => (country.slug === slug))
+          if (foundCountry) {
+            foundCountry.recovered = record.slice(4).map(Number)
+          }
+          else {
+            output.push({
+              slug,
+              recovered: record.slice(4).map(Number)
+            })
+          }
+        }
+        else {
+          isRecoveredHeaderRow = false
+        }
+      }
+    })
+
+    recoveredParser.on('end', () => {
+      output.forEach(countryData => {
+        const {slug, deaths, confirmed, recovered} = countryData
         fs.writeFileSync(`data/${slug}.json`, JSON.stringify({
-          cumulativeDeaths: deaths,
-          dailyDeaths: calculateDailyData(deaths),
-          confirmedCases: confirmed,
-          dailyConfirmedCases: calculateDailyData(confirmed),
-        }));
+          cumulativeDeaths: deaths || null,
+          dailyDeaths: deaths ? calculateDailyData(deaths) : null,
+          confirmedCases: confirmed || null,
+          dailyConfirmedCases: confirmed ? calculateDailyData(confirmed) : null,
+          recoveredCases: recovered || null
+        }))
       })
     })
 
-    confirmedParser.write(confirmed)
-    confirmedParser.end()
+    recoveredParser.write(recovered)
+    recoveredParser.end()
   })
