@@ -168,6 +168,11 @@ Promise.all(requests)
             : null
         )
         const cumulativeConfirmedCases = confirmed || null
+        const cumulativeConfirmedCasesPerMillion = (
+          cumulativeConfirmedCases
+            ? calculatePerMillion(cumulativeConfirmedCases, population)
+            : null
+        )
         const dailyConfirmedCases = (
           confirmed
             ? calculateDailyData(confirmed)
@@ -186,6 +191,7 @@ Promise.all(requests)
           dailyDeaths,
           dailyDeathsPerMillion,
           cumulativeConfirmedCases,
+          cumulativeConfirmedCasesPerMillion,
           dailyConfirmedCases,
           cumulativeRecoveredCases,
           dailyRecoveredCases,
