@@ -137,7 +137,8 @@ Promise.all(requests)
           dailyDeaths: deaths ? calculateDailyData(deaths) : null,
           confirmedCases: confirmed || null,
           dailyConfirmedCases: confirmed ? calculateDailyData(confirmed) : null,
-          recoveredCases: recovered || null
+          recoveredCases: recovered || null,
+          dailyRecoveredCases: recovered ? calculateDailyData(recovered) : null
         }))
       })
     })
