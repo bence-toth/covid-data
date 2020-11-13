@@ -62,20 +62,7 @@ fetch(sourceFile)
         const {slug, deaths} = countryData
         fs.writeFileSync(`data/${slug}.json`, JSON.stringify({
           cumulativeDeaths: deaths,
-          dailyDeaths: calculateDailyData(deaths),
-          // TODO: Add confirmed
-          // TODO: Add daily confirmed
-          // TODO: Add recovered
-          // TODO: Add daily recovered
-          // TODO: Add deaths per million
-          // TODO: Add daily deaths per million
-          // TODO: Add confirmed per million
-          // TODO: Add daily confirmed per million
-          // TODO: Add recovered per million
-          // TODO: Add daily recovered per million
-          // TODO: Add world-wide aggregate of all data points
-          // TODO: Add world-wide aggregate per million of all data points
-          // TODO: Add json with countries/provinces, slugs, population, latitude, longitude
+          dailyDeaths: calculateDailyData(deaths)
         }));
       })
     })
