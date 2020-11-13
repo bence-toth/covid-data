@@ -39,8 +39,10 @@ const calculateDailyData = data => {
   return dailyData
 }
 
-const calculatePerMillion = (data, population) => console.log(data, population) || (
-  data.map(dataPoint => Number((dataPoint * 1000000 / population).toFixed(8)))
+const calculatePerMillion = (data, population) => (
+  data.map(
+    dataPoint => Number((dataPoint * 1000000 / population).toFixed(8))
+  )
 )
 
 const requests = [
