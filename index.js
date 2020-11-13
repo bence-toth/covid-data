@@ -96,7 +96,6 @@ Promise.all(requests)
     })
 
     confirmedParser.on('end', () => {
-      console.log(output.slice(10))
       output.slice(0, 10).forEach(countryData => {
         const {slug, deaths, confirmed} = countryData
         fs.writeFileSync(`data/${slug}.json`, JSON.stringify({
