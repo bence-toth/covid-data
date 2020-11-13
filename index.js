@@ -152,17 +152,39 @@ Promise.all(requests)
         const {population} = countries.find(country => country.slug === slug)
 
         const cumulativeDeaths = deaths || null
-        const dailyDeaths = deaths ? calculateDailyData(deaths) : null
-        const cumulativeDeathsPerMillion = cumulativeDeaths ? calculatePerMillion(cumulativeDeaths, population) : null
+        const cumulativeDeathsPerMillion = (
+          cumulativeDeaths
+            ? calculatePerMillion(cumulativeDeaths, population)
+            : null
+        )
+        const dailyDeaths = (
+          deaths
+            ? calculateDailyData(deaths)
+            : null
+        )
+        const dailyDeathsPerMillion = (
+          deaths
+            ? calculatePerMillion(dailyDeaths, population)
+            : null
+        )
         const cumulativeConfirmedCases = confirmed || null
-        const dailyConfirmedCases = confirmed ? calculateDailyData(confirmed) : null
+        const dailyConfirmedCases = (
+          confirmed
+            ? calculateDailyData(confirmed)
+            : null
+        )
         const cumulativeRecoveredCases = recovered || null
-        const dailyRecoveredCases = recovered ? calculateDailyData(recovered) : null
+        const dailyRecoveredCases = (
+          recovered
+            ? calculateDailyData(recovered)
+            : null
+        )
 
         fs.writeFileSync(`data/${slug}.json`, JSON.stringify({
           cumulativeDeaths,
           cumulativeDeathsPerMillion,
           dailyDeaths,
+          dailyDeathsPerMillion,
           cumulativeConfirmedCases,
           dailyConfirmedCases,
           cumulativeRecoveredCases,
