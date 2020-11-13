@@ -131,6 +131,7 @@ Promise.all(requests)
 
     recoveredParser.on('end', () => {
       output.forEach(countryData => {
+        const {slug, deaths, confirmed, recovered} = countryData
         if (slug.includes('diamond-princess')) {
           return
         }
@@ -140,7 +141,6 @@ Promise.all(requests)
         if (slug.includes('grand-princess')) {
           return
         }
-        const {slug, deaths, confirmed, recovered} = countryData
         fs.writeFileSync(`data/${slug}.json`, JSON.stringify({
           cumulativeDeaths: deaths || null,
           dailyDeaths: deaths ? calculateDailyData(deaths) : null,
