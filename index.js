@@ -2,6 +2,8 @@ const fetch = require('node-fetch')
 const parse = require('csv-parse')
 const fs = require('fs')
 
+const {countriesAndProvinces: countries} = JSON.parse(fs.readFileSync('./countries.json'));
+
 const output = []
 
 const sourceFiles = {
@@ -36,6 +38,10 @@ const calculateDailyData = data => {
   dailyData.unshift(data[0])
   return dailyData
 }
+
+const calculatePerMillion = (data, population) => console.log(data, population) || (
+  data.map(dataPoint => Number((dataPoint * 1000000 / population).toFixed(8)))
+)
 
 const requests = [
   fetch(sourceFiles.deaths)
@@ -141,13 +147,24 @@ Promise.all(requests)
         if (slug.includes('grand-princess')) {
           return
         }
+        const {population} = countries.find(country => country.slug === slug)
+
+        const cumulativeDeaths = deaths || null
+        const dailyDeaths = deaths ? calculateDailyData(deaths) : null
+        const cumulativeDeathsPerMillion = cumulativeDeaths ? calculatePerMillion(cumulativeDeaths, population) : null
+        const cumulativeConfirmedCases = confirmed || null
+        const dailyConfirmedCases = confirmed ? calculateDailyData(confirmed) : null
+        const cumulativeRecoveredCases = recovered || null
+        const dailyRecoveredCases = recovered ? calculateDailyData(recovered) : null
+
         fs.writeFileSync(`data/${slug}.json`, JSON.stringify({
-          cumulativeDeaths: deaths || null,
-          dailyDeaths: deaths ? calculateDailyData(deaths) : null,
-          confirmedCases: confirmed || null,
-          dailyConfirmedCases: confirmed ? calculateDailyData(confirmed) : null,
-          recoveredCases: recovered || null,
-          dailyRecoveredCases: recovered ? calculateDailyData(recovered) : null
+          cumulativeDeaths,
+          cumulativeDeathsPerMillion,
+          dailyDeaths,
+          cumulativeConfirmedCases,
+          dailyConfirmedCases,
+          cumulativeRecoveredCases,
+          dailyRecoveredCases,
         }))
       })
     })
