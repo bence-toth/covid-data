@@ -184,6 +184,11 @@ Promise.all(requests)
             : null
         )
         const cumulativeRecoveredCases = recovered || null
+        const cumulativeRecoveredCasesPerMillion = (
+          cumulativeRecoveredCases
+            ? calculatePerMillion(cumulativeRecoveredCases, population)
+            : null
+        )
         const dailyRecoveredCases = (
           recovered
             ? calculateDailyData(recovered)
@@ -200,7 +205,8 @@ Promise.all(requests)
           dailyConfirmedCases,
           dailyConfirmedCasesPerMillion,
           cumulativeRecoveredCases,
-          dailyRecoveredCases,
+          cumulativeRecoveredCasesPerMillion,
+          dailyRecoveredCases
         }))
       })
     })
