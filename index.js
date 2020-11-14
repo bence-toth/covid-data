@@ -194,6 +194,11 @@ Promise.all(requests)
             ? calculateDailyData(recovered)
             : null
         )
+        const dailyRecoveredCasesPerMillion = (
+          dailyRecoveredCases
+            ? calculatePerMillion(dailyRecoveredCases, population)
+            : null
+        )
 
         fs.writeFileSync(`data/${slug}.json`, JSON.stringify({
           cumulativeDeaths,
@@ -206,7 +211,8 @@ Promise.all(requests)
           dailyConfirmedCasesPerMillion,
           cumulativeRecoveredCases,
           cumulativeRecoveredCasesPerMillion,
-          dailyRecoveredCases
+          dailyRecoveredCases,
+          dailyRecoveredCasesPerMillion
         }))
       })
     })
