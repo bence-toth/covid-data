@@ -21,8 +21,8 @@ jobs:
         uses: peter-evans/create-pull-request@v3
         with:
           token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
-          commit-message: Update dependencies
-          title: Update dependencies
+          commit-message: Updated data
+          title: Updated data
           body: |
             Updated COVID-19 data with most recent numbers
 
