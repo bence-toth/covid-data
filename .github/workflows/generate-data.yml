@@ -1,9 +1,6 @@
 name: Generate data
 
 on:
-  pull_request:
-    branches:
-      - gh-action
   schedule:
     - cron:  '0 8 * * *'
 jobs:
