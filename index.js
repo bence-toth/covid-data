@@ -176,6 +176,21 @@ Promise.all(requests)
     })
 
     recoveredParser.on('end', () => {
+      const australia = aggregateCountry({
+        output,
+        slug: 'australia'
+      })
+      const china = aggregateCountry({
+        output,
+        slug: 'china'
+      })
+      const canada = aggregateCountry({
+        output,
+        slug: 'canada',
+        recoveredAvailable: true
+      })
+      output.push(australia, china, canada);
+
       output.forEach(countryData => {
         const {slug, deaths, confirmed, recovered} = countryData
         if (slug.includes('diamond-princess')) {
