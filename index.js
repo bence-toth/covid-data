@@ -54,6 +54,44 @@ const requests = [
     .then(response => response.text()),
 ]
 
+const aggregateCountry = ({output, slug, recoveredAvailable}) => {
+  const recovered = []
+  const deaths = []
+  const confirmed = []
+  const provinces = output.filter(({slug: slugToFind}) => slugToFind.includes(`${slug}--`))
+  provinces.forEach(province => {
+    province.deaths.forEach((_, index) => {
+      deaths[index] = (
+        (deaths[index] === undefined)
+          ? province.deaths[index]
+          : deaths[index] + province.deaths[index]
+      )
+      confirmed[index] = (
+        (confirmed[index] === undefined)
+          ? province.confirmed[index]
+          : confirmed[index] + province.confirmed[index]
+      )
+      if (!recoveredAvailable) {
+        recovered[index] = (
+          (recovered[index] === undefined)
+            ? province.recovered[index]
+            : recovered[index] + province.recovered[index]
+        )
+      }
+    })
+  })
+  return {
+    slug,
+    deaths,
+    confirmed,
+    recovered: (
+      recoveredAvailable
+        ? output.find(({slug: slugToFind}) => slugToFind === slug).recovered
+        : recovered
+    )
+  }
+}
+
 Promise.all(requests)
   .then(([deaths, confirmed, recovered]) => {
     const deathsParser = parse({
@@ -138,6 +176,21 @@ Promise.all(requests)
     })
 
     recoveredParser.on('end', () => {
+      const australia = aggregateCountry({
+        output,
+        slug: 'australia'
+      })
+      const china = aggregateCountry({
+        output,
+        slug: 'china'
+      })
+      const canada = aggregateCountry({
+        output,
+        slug: 'canada',
+        recoveredAvailable: true
+      })
+      output.push(australia, china, canada);
+
       output.forEach(countryData => {
         const {slug, deaths, confirmed, recovered} = countryData
         if (slug.includes('diamond-princess')) {
