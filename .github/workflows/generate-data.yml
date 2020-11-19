@@ -19,12 +19,11 @@ jobs:
           npm run generate
           ls ./data
       - name: Create Pull Request
-        uses: repo-sync/pull-request@v2
+        uses: gr2m/create-or-update-pull-request-action@v1.x
+        env:
+          GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
         with:
-          destination_branch: "main"
-          github_token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
-          source_branch: "covid-data-update-${{ hashFiles('./data/denmark.json') }}"
-          destination_branch: "main"
-          # pr_title: "Pulling ${{ github.ref }} into master" # Title of pull request
-          # pr_body: ":crown: *An automated PR*"              # Full markdown support, requires pr_title to be set
-          pr_assignee: "bence-toth"
+          title: "My pull request title"
+          body: "My pull request body"
+          branch: "covid-data-update-${{ hashFiles('./data/denmark.json') }}"
+          commit-message: "My commit message for uncommitted changes in lib/ folder"
