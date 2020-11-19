@@ -10,6 +10,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+        with:
+          ref: main
       - uses: actions/setup-node@v1
         with:
           node-version: '12.x'
@@ -23,7 +25,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
         with:
-          title: "My pull request title"
-          body: "My pull request body"
-          branch: "covid-data-update-${{ hashFiles('./data/denmark.json') }}"
-          commit-message: "My commit message for uncommitted changes in lib/ folder"
+          title: "Updates to COVID-19 data"
+          body: "Updated json files in the `./data` folder with new COVID-19 data"
+          branch: "covid-data-update-${{ hashFiles('./data/us.json') }}"
+          commit-message: "New data files"
