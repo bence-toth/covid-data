@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Download and split COVID data",
   "scripts": {
-    "start": "node ./index.js"
+    "generate": "node ./index.js"
   },
   "repository": {
     "type": "git",
