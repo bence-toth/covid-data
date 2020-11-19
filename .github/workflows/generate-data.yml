@@ -1,4 +1,4 @@
-name: Generate data
+name: Generate data and open PR
 
 on:
   pull_request:
