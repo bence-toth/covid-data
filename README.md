@@ -7,6 +7,8 @@ This repository contains COVID-19 data in JSON format.
 
 The dataset contains the number of confirmed cases, the number of recoveries, and the number of deaths, both daily and cumulative values, and both exact values and values for one million inhabitants.
 
+The first day of the dataset is 22 January 2020.
+
 You can fetch the data using HTTP.
 
 
