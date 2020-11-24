@@ -2,7 +2,7 @@ const fetch = require('node-fetch')
 const parse = require('csv-parse')
 const fs = require('fs')
 
-const {countriesAndProvinces: countries} = JSON.parse(fs.readFileSync('./countries.json'));
+const {countriesAndProvinces: countries} = JSON.parse(fs.readFileSync('./data/countries.json'));
 
 const output = []
 
@@ -253,7 +253,7 @@ Promise.all(requests)
             : null
         )
 
-        fs.writeFileSync(`data/${slug}.json`, JSON.stringify({
+        fs.writeFileSync(`data/entire-dataset/${slug}.json`, JSON.stringify({
           cumulativeDeaths,
           cumulativeDeathsPerMillion,
           dailyDeaths,
@@ -265,6 +265,54 @@ Promise.all(requests)
           cumulativeRecoveredCases,
           cumulativeRecoveredCasesPerMillion,
           dailyRecoveredCases,
+          dailyRecoveredCasesPerMillion
+        }))
+
+        fs.writeFileSync(`data/died/cumulative/exact/${slug}.json`, JSON.stringify({
+          cumulativeDeaths
+        }))
+
+        fs.writeFileSync(`data/died/cumulative/per-million/${slug}.json`, JSON.stringify({
+          cumulativeDeathsPerMillion
+        }))
+
+        fs.writeFileSync(`data/died/daily/exact/${slug}.json`, JSON.stringify({
+          dailyDeaths
+        }))
+
+        fs.writeFileSync(`data/died/daily/per-million/${slug}.json`, JSON.stringify({
+          dailyDeathsPerMillion
+        }))
+
+        fs.writeFileSync(`data/confirmed/cumulative/exact/${slug}.json`, JSON.stringify({
+          cumulativeConfirmedCases
+        }))
+
+        fs.writeFileSync(`data/confirmed/cumulative/per-million/${slug}.json`, JSON.stringify({
+          cumulativeConfirmedCasesPerMillion
+        }))
+
+        fs.writeFileSync(`data/confirmed/daily/exact/${slug}.json`, JSON.stringify({
+          dailyConfirmedCases
+        }))
+
+        fs.writeFileSync(`data/confirmed/daily/per-million/${slug}.json`, JSON.stringify({
+          dailyConfirmedCasesPerMillion
+        }))
+
+        fs.writeFileSync(`data/recovered/cumulative/exact/${slug}.json`, JSON.stringify({
+          cumulativeRecoveredCases
+        }))
+
+        fs.writeFileSync(`data/recovered/cumulative/per-million/${slug}.json`, JSON.stringify({
+          cumulativeRecoveredCasesPerMillion
+        }))
+
+        fs.writeFileSync(`data/recovered/daily/exact/${slug}.json`, JSON.stringify({
+          dailyRecoveredCases
+        }))
+
+        fs.writeFileSync(`data/recovered/daily/per-million/${slug}.json`, JSON.stringify({
           dailyRecoveredCasesPerMillion
         }))
       })
