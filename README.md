@@ -58,7 +58,33 @@ fetch('https://raw.githubusercontent.com/bence-toth/covid-data/main/data/countri
     console.log(result.countriesAndProvinces)
   })
 ```
-### Confirmed cases
+
+
+### Confirmed cases, daily
+
+The daily confirmed cases for countries and provinces are available in the JSON files in the `data/confirmed/daily/exact/` folder.
+
+These files contain a JSON object with only one key `dailyConfirmedCases` which is an array of numbers.
+
+You can fetch the data contained in one of these files by sending a `GET` request to:
+
+```
+https://raw.githubusercontent.com/bence-toth/covid-data/main/data/confirmed/daily/exact/SLUG.json
+```
+
+Where `SLUG` is to be replaced with the slug of the country or province.
+
+For example:
+
+```js
+fetch('https://raw.githubusercontent.com/bence-toth/covid-data/main/data/confirmed/daily/exact/canada.json')
+  .then(response => response.json())
+  .then(result => {
+    console.log(result.dailyConfirmedCases)
+  })
+```
+
+
 
 ### Deaths
 
