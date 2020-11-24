@@ -260,7 +260,31 @@ fetch('https://raw.githubusercontent.com/bence-toth/covid-data/main/data/died/cu
 ```
 
 
-### Recoveries
+### Recoveries, daily
+
+The daily recoveries for countries and provinces are available in the JSON files in the `data/recovered/daily/exact/` folder.
+
+These files contain a JSON object with only one key `dailyRecoveredCases` which is an array of numbers.
+
+You can fetch the data contained in one of these files by sending a `GET` request to:
+
+```
+https://raw.githubusercontent.com/bence-toth/covid-data/main/data/recovered/daily/exact/SLUG.json
+```
+
+Where `SLUG` is to be replaced with the slug of the country or province.
+
+For example:
+
+```js
+fetch('https://raw.githubusercontent.com/bence-toth/covid-data/main/data/recovered/daily/exact/canada.json')
+  .then(response => response.json())
+  .then(result => {
+    console.log(result.dailyRecoveredCases)
+  })
+```
+
+
 
 ## Acknowledgments
 
