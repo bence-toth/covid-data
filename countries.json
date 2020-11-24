@@ -1,1 +1,1967 @@
-{"countriesAndProvinces":[{"slug":"afghanistan","name":"Afghanistan","latitude":33.93911,"longitude":67.709953,"population":38928346},{"slug":"albania","name":"Albania","latitude":41.1533,"longitude":20.1683,"population":2877797},{"slug":"algeria","name":"Algeria","latitude":28.0339,"longitude":1.6596,"population":43851044},{"slug":"andorra","name":"Andorra","latitude":42.5063,"longitude":1.5218,"population":77265},{"slug":"angola","name":"Angola","latitude":-11.2027,"longitude":17.8739,"population":32866272},{"slug":"antigua-and-barbuda","name":"Antigua and Barbuda","latitude":17.0608,"longitude":-61.7964,"population":97929},{"slug":"argentina","name":"Argentina","latitude":-38.4161,"longitude":-63.6167,"population":45195774},{"slug":"armenia","name":"Armenia","latitude":40.0691,"longitude":45.0382,"population":2963243},{"slug":"australia--australian-capital-territory","name":"Australia","province":"Australian Capital Territory","latitude":-35.4735,"longitude":149.0124,"population":418440},{"slug":"australia--new-south-wales","name":"Australia","province":"New South Wales","latitude":-33.8688,"longitude":151.2093,"population":8157735},{"slug":"australia--northern-territory","name":"Australia","province":"Northern Territory","latitude":-12.4634,"longitude":130.8456,"population":245353},{"slug":"australia--queensland","name":"Australia","province":"Queensland","latitude":-27.4698,"longitude":153.0251,"population":5211289},{"slug":"australia--south-australia","name":"Australia","province":"South Australia","latitude":-34.9285,"longitude":138.6007,"population":1767247},{"slug":"australia--tasmania","name":"Australia","province":"Tasmania","latitude":-42.8821,"longitude":147.3272,"population":539590},{"slug":"australia--victoria","name":"Australia","province":"Victoria","latitude":-37.8136,"longitude":144.9631,"population":6689377},{"slug":"australia--western-australia","name":"Australia","province":"Western Australia","latitude":-31.9505,"longitude":115.8605,"population":2656156},{"slug":"australia","name":"Australia","latitude":-25.2744,"longitude":133.7751,"population":25499884},{"slug":"austria","name":"Austria","latitude":47.5162,"longitude":14.5501,"population":9006398},{"slug":"azerbaijan","name":"Azerbaijan","latitude":40.1431,"longitude":47.5769,"population":10139177},{"slug":"bahamas","name":"Bahamas","latitude":25.025885,"longitude":-78.035889,"population":393244},{"slug":"bahrain","name":"Bahrain","latitude":26.0275,"longitude":50.55,"population":1701575},{"slug":"bangladesh","name":"Bangladesh","latitude":23.685,"longitude":90.3563,"population":164689383},{"slug":"barbados","name":"Barbados","latitude":13.1939,"longitude":-59.5432,"population":287375},{"slug":"belarus","name":"Belarus","latitude":53.7098,"longitude":27.9534,"population":9449323},{"slug":"belgium","name":"Belgium","latitude":50.8333,"longitude":4.469936,"population":11589623},{"slug":"belize","name":"Belize","latitude":17.1899,"longitude":-88.4976,"population":397628},{"slug":"benin","name":"Benin","latitude":9.3077,"longitude":2.3158,"population":12123200},{"slug":"bhutan","name":"Bhutan","latitude":27.5142,"longitude":90.4336,"population":771608},{"slug":"bolivia","name":"Bolivia","latitude":-16.2902,"longitude":-63.5887,"population":11673021},{"slug":"bosnia-and-herzegovina","name":"Bosnia and Herzegovina","latitude":43.9159,"longitude":17.6791,"population":3280819},{"slug":"botswana","name":"Botswana","latitude":-22.3285,"longitude":24.6849,"population":2351627},{"slug":"brazil","name":"Brazil","latitude":-14.235,"longitude":-51.9253,"population":212559417},{"slug":"brunei","name":"Brunei","latitude":4.5353,"longitude":114.7277,"population":428962},{"slug":"bulgaria","name":"Bulgaria","latitude":42.7339,"longitude":25.4858,"population":6948445},{"slug":"burkina-faso","name":"Burkina Faso","latitude":12.2383,"longitude":-1.5616,"population":20903273},{"slug":"burma","name":"Myanmar (Burma)","latitude":21.9162,"longitude":95.956,"population":54409800},{"slug":"burundi","name":"Burundi","latitude":-3.3731,"longitude":29.9189,"population":11890784},{"slug":"cabo-verde","name":"Cabo Verde","latitude":16.5388,"longitude":-23.0418,"population":555987},{"slug":"cambodia","name":"Cambodia","latitude":11.55,"longitude":104.9167,"population":16718965},{"slug":"cameroon","name":"Cameroon","latitude":3.848,"longitude":11.5021,"population":26545863},{"slug":"canada--alberta","name":"Canada","province":"Alberta","latitude":53.9333,"longitude":-116.5765,"population":4345737},{"slug":"canada--british-columbia","name":"Canada","province":"British Columbia","latitude":53.7267,"longitude":-127.6476,"population":5020302},{"slug":"canada--manitoba","name":"Canada","province":"Manitoba","latitude":53.7609,"longitude":-98.8139,"population":1360396},{"slug":"canada--new-brunswick","name":"Canada","province":"New Brunswick","latitude":46.5653,"longitude":-66.4619,"population":772094},{"slug":"canada--newfoundland-and-labrador","name":"Canada","province":"Newfoundland and Labrador","latitude":53.1355,"longitude":-57.6604,"population":523790},{"slug":"canada--northwest-territories","name":"Canada","province":"Northwest Territories","latitude":64.8255,"longitude":-124.8457,"population":44598},{"slug":"canada--nova-scotia","name":"Canada","province":"Nova Scotia","latitude":44.682,"longitude":-63.7443,"population":965382},{"slug":"canada--ontario","name":"Canada","province":"Ontario","latitude":51.2538,"longitude":-85.3232,"population":14446515},{"slug":"canada--prince-edward-island","name":"Canada","province":"Prince Edward Island","latitude":46.5107,"longitude":-63.4168,"population":154748},{"slug":"canada--quebec","name":"Canada","province":"Quebec","latitude":52.9399,"longitude":-73.5491,"population":8433301},{"slug":"canada--saskatchewan","name":"Canada","province":"Saskatchewan","latitude":52.9399,"longitude":-106.4509,"population":1168423},{"slug":"canada--yukon","name":"Canada","province":"Yukon","latitude":64.2823,"longitude":-135,"population":40369},{"slug":"canada","name":"Canada","population":37742154,"latitude":56.1304,"longitude":106.3468},{"slug":"central-african-republic","name":"Central African Republic","latitude":6.6111,"longitude":20.9394,"population":4829767},{"slug":"chad","name":"Chad","latitude":15.4542,"longitude":18.7322,"population":16425864},{"slug":"chile","name":"Chile","latitude":-35.6751,"longitude":-71.543,"population":19116201},{"slug":"china--anhui","name":"China","province":"Anhui","latitude":31.8257,"longitude":117.2264,"population":59500510},{"slug":"china--beijing","name":"China","province":"Beijing","latitude":40.1824,"longitude":116.4142,"population":19612368},{"slug":"china--chongqing","name":"China","province":"Chongqing","latitude":30.0572,"longitude":107.874,"population":28846170},{"slug":"china--fujian","name":"China","province":"Fujian","latitude":26.0789,"longitude":117.9874,"population":36894216},{"slug":"china--gansu","name":"China","province":"Gansu","latitude":35.7518,"longitude":104.2861,"population":25575254},{"slug":"china--guangdong","name":"China","province":"Guangdong","latitude":23.3417,"longitude":113.4244,"population":104303132},{"slug":"china--guangxi","name":"China","province":"Guangxi","latitude":23.8298,"longitude":108.7881,"population":46026629},{"slug":"china--guizhou","name":"China","province":"Guizhou","latitude":26.8154,"longitude":106.8748,"population":35806468},{"slug":"china--hainan","name":"China","province":"Hainan","latitude":19.1959,"longitude":109.7453,"population":9261518},{"slug":"china--hebei","name":"China","province":"Hebei","latitude":39.549,"longitude":116.1306,"population":71854202},{"slug":"china--heilongjiang","name":"China","province":"Heilongjiang","latitude":47.862,"longitude":127.7615,"population":38312224},{"slug":"china--henan","name":"China","province":"Henan","latitude":37.8957,"longitude":114.9042,"population":94023567},{"slug":"china--hong-kong","name":"China","province":"Hong Kong","latitude":22.3,"longitude":114.2,"population":7061200},{"slug":"china--hubei","name":"China","province":"Hubei","latitude":30.9756,"longitude":112.2707,"population":57237740},{"slug":"china--hunan","name":"China","province":"Hunan","latitude":27.6104,"longitude":111.7088,"population":65683722},{"slug":"china--inner-mongolia","name":"China","province":"Inner Mongolia","latitude":44.0935,"longitude":113.9448,"population":24706321},{"slug":"china--jiangsu","name":"China","province":"Jiangsu","latitude":32.9711,"longitude":119.455,"population":78659903},{"slug":"china--jiangxi","name":"China","province":"Jiangxi","latitude":27.614,"longitude":115.7221,"population":44567475},{"slug":"china--jilin","name":"China","province":"Jilin","latitude":43.6661,"longitude":126.1923,"population":27462297},{"slug":"china--liaoning","name":"China","province":"Liaoning","latitude":41.2956,"longitude":122.6085,"population":43746323},{"slug":"china--macau","name":"China","province":"Macau","latitude":22.1667,"longitude":113.55,"population":552503},{"slug":"china--ningxia","name":"China","province":"Ningxia","latitude":37.2692,"longitude":106.1655,"population":6176900},{"slug":"china--qinghai","name":"China","province":"Qinghai","latitude":35.7452,"longitude":95.9956,"population":5626722},{"slug":"china--shaanxi","name":"China","province":"Shaanxi","latitude":35.1917,"longitude":108.8701,"population":37327378},{"slug":"china--shandong","name":"China","province":"Shandong","latitude":36.3427,"longitude":118.1498,"population":100063065},{"slug":"china--shanghai","name":"China","province":"Shanghai","latitude":31.202,"longitude":121.4491,"population":23019148},{"slug":"china--shanxi","name":"China","province":"Shanxi","latitude":37.5777,"longitude":112.2922,"population":37022111},{"slug":"china--sichuan","name":"China","province":"Sichuan","latitude":30.6171,"longitude":102.7103,"population":80418200},{"slug":"china--tianjin","name":"China","province":"Tianjin","latitude":39.3054,"longitude":117.323,"population":12938224},{"slug":"china--tibet","name":"China","province":"Tibet","latitude":31.6927,"longitude":88.0924,"population":3002166},{"slug":"china--xinjiang","name":"China","province":"Xinjiang","latitude":41.1129,"longitude":85.2401,"population":21813334},{"slug":"china--yunnan","name":"China","province":"Yunnan","latitude":24.974,"longitude":101.487,"population":45966239},{"slug":"china--zhejiang","name":"China","province":"Zhejiang","latitude":29.1832,"longitude":120.0934,"population":54426891},{"slug":"china","name":"China","latitude":35.8617,"longitude":104.1954,"population":1439323776},{"slug":"colombia","name":"Colombia","latitude":4.5709,"longitude":-74.2973,"population":50882891},{"slug":"comoros","name":"Comoros","latitude":-11.6455,"longitude":43.3333,"population":869601},{"slug":"congo-brazzaville","name":"Congo (Brazzaville)","latitude":-0.228,"longitude":15.8277,"population":5518087},{"slug":"congo-kinshasa","name":"Congo (Kinshasa)","latitude":-4.0383,"longitude":21.7587,"population":89561403},{"slug":"costa-rica","name":"Costa Rica","latitude":9.7489,"longitude":-83.7534,"population":5094118},{"slug":"cote-divoire","name":"Cote d'Ivoire","latitude":7.54,"longitude":-5.5471,"population":26378274},{"slug":"croatia","name":"Croatia","latitude":45.1,"longitude":15.2,"population":4105267},{"slug":"cuba","name":"Cuba","latitude":21.521757,"longitude":-77.781167,"population":11326616},{"slug":"cyprus","name":"Cyprus","latitude":35.1264,"longitude":33.4299,"population":1207359},{"slug":"czechia","name":"Czech Republic","latitude":49.8175,"longitude":15.473,"population":10708981},{"slug":"denmark--faroe-islands","name":"Denmark","province":"Faroe Islands","latitude":61.8926,"longitude":-6.9118,"population":52154},{"slug":"denmark--greenland","name":"Denmark","province":"Greenland","latitude":71.7069,"longitude":-42.6043,"population":56806},{"slug":"denmark","name":"Denmark","latitude":56.2639,"longitude":9.5018,"population":5792202},{"slug":"djibouti","name":"Djibouti","latitude":11.8251,"longitude":42.5903,"population":988000},{"slug":"dominica","name":"Dominica","latitude":15.415,"longitude":-61.371,"population":71986},{"slug":"dominican-republic","name":"Dominican Republic","latitude":18.7357,"longitude":-70.1627,"population":10847910},{"slug":"ecuador","name":"Ecuador","latitude":-1.8312,"longitude":-78.1834,"population":17643054},{"slug":"egypt","name":"Egypt","latitude":26.820553,"longitude":30.802498,"population":102334404},{"slug":"el-salvador","name":"El Salvador","latitude":13.7942,"longitude":-88.8965,"population":6486205},{"slug":"equatorial-guinea","name":"Equatorial Guinea","latitude":1.6508,"longitude":10.2679,"population":1402985},{"slug":"eritrea","name":"Eritrea","latitude":15.1794,"longitude":39.7823,"population":3546421},{"slug":"estonia","name":"Estonia","latitude":58.5953,"longitude":25.0136,"population":1326535},{"slug":"eswatini","name":"Eswatini","latitude":-26.5225,"longitude":31.4659,"population":1160164},{"slug":"ethiopia","name":"Ethiopia","latitude":9.145,"longitude":40.4897,"population":114963588},{"slug":"fiji","name":"Fiji","latitude":-17.7134,"longitude":178.065,"population":896445},{"slug":"finland","name":"Finland","latitude":61.92411,"longitude":25.748151,"population":5540720},{"slug":"france--french-guiana","name":"France","province":"French Guiana","latitude":3.9339,"longitude":-53.1258,"population":298682},{"slug":"france--french-polynesia","name":"France","province":"French Polynesia","latitude":-17.6797,"longitude":149.4068,"population":280908},{"slug":"france--guadeloupe","name":"France","province":"Guadeloupe","latitude":16.265,"longitude":-61.551,"population":400124},{"slug":"france--martinique","name":"France","province":"Martinique","latitude":14.6415,"longitude":-61.0242,"population":375265},{"slug":"france--mayotte","name":"France","province":"Mayotte","latitude":-12.8275,"longitude":45.166244,"population":272815},{"slug":"france--new-caledonia","name":"France","province":"New Caledonia","latitude":-20.904305,"longitude":165.618042,"population":285498},{"slug":"france--reunion","name":"France","province":"Réunion","latitude":-21.1151,"longitude":55.5364,"population":895312},{"slug":"france--saint-barthelemy","name":"France","province":"Saint Barthélemy","latitude":17.9,"longitude":-62.8333,"population":9887},{"slug":"france--saint-pierre-and-miquelon","name":"France","province":"Saint Pierre and Miquelon","latitude":46.8852,"longitude":-56.3159,"population":5794},{"slug":"france--st-martin","name":"France","province":"St Martin","latitude":18.0708,"longitude":-63.0501,"population":38895},{"slug":"france","name":"France","latitude":46.2276,"longitude":2.2137,"population":65273511},{"slug":"gabon","name":"Gabon","latitude":-0.8037,"longitude":11.6094,"population":2225734},{"slug":"gambia","name":"Gambia","latitude":13.4432,"longitude":-15.3101,"population":2416668},{"slug":"georgia","name":"Georgia","latitude":42.3154,"longitude":43.3569,"population":3989167},{"slug":"germany","name":"Germany","latitude":51.165691,"longitude":10.451526,"population":83783942},{"slug":"ghana","name":"Ghana","latitude":7.9465,"longitude":-1.0232,"population":31072940},{"slug":"greece","name":"Greece","latitude":39.0742,"longitude":21.8243,"population":10423054},{"slug":"grenada","name":"Grenada","latitude":12.1165,"longitude":-61.679,"population":112523},{"slug":"guatemala","name":"Guatemala","latitude":15.7835,"longitude":-90.2308,"population":17915568},{"slug":"guinea","name":"Guinea","latitude":9.9456,"longitude":-9.6966,"population":13132795},{"slug":"guinea-bissau","name":"Guinea-Bissau","latitude":11.8037,"longitude":-15.1804,"population":1968001},{"slug":"guyana","name":"Guyana","latitude":4.860416,"longitude":-58.93018,"population":786552},{"slug":"haiti","name":"Haiti","latitude":18.9712,"longitude":-72.2852,"population":11402528},{"slug":"holy-see","name":"Holy See (Vatican)","latitude":41.9029,"longitude":12.4534,"population":801},{"slug":"honduras","name":"Honduras","latitude":15.2,"longitude":-86.2419,"population":9904607},{"slug":"hungary","name":"Hungary","latitude":47.1625,"longitude":19.5033,"population":9660351},{"slug":"iceland","name":"Iceland","latitude":64.9631,"longitude":-19.0208,"population":341243},{"slug":"india","name":"India","latitude":20.593684,"longitude":78.96288,"population":1380004385},{"slug":"indonesia","name":"Indonesia","latitude":-0.7893,"longitude":113.9213,"population":273523615},{"slug":"iran","name":"Iran","latitude":32.427908,"longitude":53.688046,"population":83992949},{"slug":"iraq","name":"Iraq","latitude":33.223191,"longitude":43.679291,"population":40222493},{"slug":"ireland","name":"Ireland","latitude":53.1424,"longitude":-7.6921,"population":4937786},{"slug":"israel","name":"Israel","latitude":31.046051,"longitude":34.851612,"population":8655535},{"slug":"italy","name":"Italy","latitude":41.87194,"longitude":12.56738,"population":60461826},{"slug":"jamaica","name":"Jamaica","latitude":18.1096,"longitude":-77.2975,"population":2961167},{"slug":"japan","name":"Japan","latitude":36.204824,"longitude":138.252924,"population":126476461},{"slug":"jordan","name":"Jordan","latitude":31.24,"longitude":36.51,"population":10203134},{"slug":"kazakhstan","name":"Kazakhstan","latitude":48.0196,"longitude":66.9237,"population":18776707},{"slug":"kenya","name":"Kenya","latitude":-0.0236,"longitude":37.9062,"population":53771296},{"slug":"korea-south","name":"Korea, South","latitude":35.907757,"longitude":127.766922,"population":51269185},{"slug":"kosovo","name":"Kosovo","latitude":42.602636,"longitude":20.902977,"population":1810366},{"slug":"kuwait","name":"Kuwait","latitude":29.31166,"longitude":47.481766,"population":4270571},{"slug":"kyrgyzstan","name":"Kyrgyzstan","latitude":41.20438,"longitude":74.766098,"population":6524195},{"slug":"laos","name":"Laos","latitude":19.85627,"longitude":102.495496,"population":7275560},{"slug":"latvia","name":"Latvia","latitude":56.8796,"longitude":24.6032,"population":1886198},{"slug":"lebanon","name":"Lebanon","latitude":33.8547,"longitude":35.8623,"population":6825445},{"slug":"lesotho","name":"Lesotho","latitude":-29.61,"longitude":28.2336,"population":2142249},{"slug":"liberia","name":"Liberia","latitude":6.428055,"longitude":-9.429499,"population":5057681},{"slug":"libya","name":"Libya","latitude":26.3351,"longitude":17.228331,"population":6871292},{"slug":"liechtenstein","name":"Liechtenstein","latitude":47.14,"longitude":9.55,"population":38128},{"slug":"lithuania","name":"Lithuania","latitude":55.1694,"longitude":23.8813,"population":2722289},{"slug":"luxembourg","name":"Luxembourg","latitude":49.8153,"longitude":6.1296,"population":625978},{"slug":"madagascar","name":"Madagascar","latitude":-18.766947,"longitude":46.869107,"population":27691018},{"slug":"malawi","name":"Malawi","latitude":-13.2543,"longitude":34.3015,"population":19129952},{"slug":"malaysia","name":"Malaysia","latitude":4.210484,"longitude":101.975766,"population":32365999},{"slug":"maldives","name":"Maldives","latitude":3.2028,"longitude":73.2207,"population":540544},{"slug":"mali","name":"Mali","latitude":17.570692,"longitude":-3.996166,"population":20250833},{"slug":"malta","name":"Malta","latitude":35.9375,"longitude":14.3754,"population":441543},{"slug":"marshall-islands","name":"Marshall Islands","latitude":7.1315,"longitude":171.1845,"population":59190},{"slug":"mauritania","name":"Mauritania","latitude":21.0079,"longitude":-10.9408,"population":4649658},{"slug":"mauritius","name":"Mauritius","latitude":-20.348404,"longitude":57.552152,"population":1271768},{"slug":"mexico","name":"Mexico","latitude":23.6345,"longitude":-102.5528,"population":128932753},{"slug":"moldova","name":"Moldova","latitude":47.4116,"longitude":28.3699,"population":4033963},{"slug":"monaco","name":"Monaco","latitude":43.7333,"longitude":7.4167,"population":39242},{"slug":"mongolia","name":"Mongolia","latitude":46.8625,"longitude":103.8467,"population":3278290},{"slug":"montenegro","name":"Montenegro","latitude":42.708678,"longitude":19.37439,"population":628066},{"slug":"morocco","name":"Morocco","latitude":31.7917,"longitude":-7.0926,"population":36910560},{"slug":"mozambique","name":"Mozambique","latitude":-18.665695,"longitude":35.529562,"population":31255435},{"slug":"namibia","name":"Namibia","latitude":-22.9576,"longitude":18.4904,"population":2540905},{"slug":"nepal","name":"Nepal","latitude":28.1667,"longitude":84.25,"population":29136808},{"slug":"netherlands--aruba","name":"Netherlands","province":"Aruba","latitude":12.5211,"longitude":-69.9683,"population":106766},{"slug":"netherlands--bonaire-sint-eustatius-and-saba","name":"Netherlands","province":"Bonaire, Sint Eustatius and Saba","latitude":12.1784,"longitude":-68.2385,"population":25987},{"slug":"netherlands--curacao","name":"Netherlands","province":"Curacao","latitude":12.1696,"longitude":-68.99,"population":164093},{"slug":"netherlands--sint-maarten","name":"Netherlands","province":"Sint Maarten","latitude":18.0425,"longitude":-63.0548,"population":43049},{"slug":"netherlands","name":"Netherlands","latitude":52.1326,"longitude":5.2913,"population":17134872},{"slug":"new-zealand","name":"New Zealand","latitude":-40.9006,"longitude":174.886,"population":4822233},{"slug":"nicaragua","name":"Nicaragua","latitude":12.865416,"longitude":-85.207229,"population":6624554},{"slug":"niger","name":"Niger","latitude":17.607789,"longitude":8.081666,"population":24206644},{"slug":"nigeria","name":"Nigeria","latitude":9.082,"longitude":8.6753,"population":206139589},{"slug":"north-macedonia","name":"North Macedonia","latitude":41.6086,"longitude":21.7453,"population":2083374},{"slug":"norway","name":"Norway","latitude":60.472,"longitude":8.4689,"population":5421241},{"slug":"oman","name":"Oman","latitude":21.512583,"longitude":55.923255,"population":5106626},{"slug":"pakistan","name":"Pakistan","latitude":30.3753,"longitude":69.3451,"population":220892340},{"slug":"panama","name":"Panama","latitude":8.538,"longitude":-80.7821,"population":4314767},{"slug":"papua-new-guinea","name":"Papua New Guinea","latitude":-6.314993,"longitude":143.95555,"population":8947024},{"slug":"paraguay","name":"Paraguay","latitude":-23.4425,"longitude":-58.4438,"population":7132538},{"slug":"peru","name":"Peru","latitude":-9.19,"longitude":-75.0152,"population":32971854},{"slug":"philippines","name":"Philippines","latitude":12.879721,"longitude":121.774017,"population":109581078},{"slug":"poland","name":"Poland","latitude":51.9194,"longitude":19.1451,"population":37846611},{"slug":"portugal","name":"Portugal","latitude":39.3999,"longitude":-8.2245,"population":10196709},{"slug":"qatar","name":"Qatar","latitude":25.3548,"longitude":51.1839,"population":2881053},{"slug":"romania","name":"Romania","latitude":45.9432,"longitude":24.9668,"population":19237691},{"slug":"russia","name":"Russia","latitude":61.52401,"longitude":105.318756,"population":145934462},{"slug":"rwanda","name":"Rwanda","latitude":-1.9403,"longitude":29.8739,"population":12952218},{"slug":"saint-kitts-and-nevis","name":"Saint Kitts and Nevis","latitude":17.357822,"longitude":-62.782998,"population":57567},{"slug":"saint-lucia","name":"Saint Lucia","latitude":13.9094,"longitude":-60.9789,"population":183627},{"slug":"saint-vincent-and-the-grenadines","name":"Saint Vincent and the Grenadines","latitude":12.9843,"longitude":-61.2872,"population":110940},{"slug":"san-marino","name":"San Marino","latitude":43.9424,"longitude":12.4578,"population":33931},{"slug":"sao-tome-and-principe","name":"Sao Tome and Principe","latitude":0.1864,"longitude":6.6131,"population":219159},{"slug":"saudi-arabia","name":"Saudi Arabia","latitude":23.885942,"longitude":45.079162,"population":34813871},{"slug":"senegal","name":"Senegal","latitude":14.4974,"longitude":-14.4524,"population":16743927},{"slug":"serbia","name":"Serbia","latitude":44.0165,"longitude":21.0059,"population":8737371},{"slug":"seychelles","name":"Seychelles","latitude":-4.6796,"longitude":55.492,"population":98347},{"slug":"sierra-leone","name":"Sierra Leone","latitude":8.460555,"longitude":-11.779889,"population":7976983},{"slug":"singapore","name":"Singapore","latitude":1.2833,"longitude":103.8333,"population":5850342},{"slug":"slovakia","name":"Slovakia","latitude":48.669,"longitude":19.699,"population":5459642},{"slug":"slovenia","name":"Slovenia","latitude":46.1512,"longitude":14.9955,"population":2078938},{"slug":"solomon-islands","name":"Solomon Islands","latitude":-9.6457,"longitude":160.1562,"population":686884},{"slug":"somalia","name":"Somalia","latitude":5.152149,"longitude":46.199616,"population":15893222},{"slug":"south-africa","name":"South Africa","latitude":-30.5595,"longitude":22.9375,"population":59308690},{"slug":"south-sudan","name":"South Sudan","latitude":6.877,"longitude":31.307,"population":11193725},{"slug":"spain","name":"Spain","latitude":40.463667,"longitude":-3.74922,"population":46754778},{"slug":"sri-lanka","name":"Sri Lanka","latitude":7.873054,"longitude":80.771797,"population":21413249},{"slug":"sudan","name":"Sudan","latitude":12.8628,"longitude":30.2176,"population":43849260},{"slug":"suriname","name":"Suriname","latitude":3.9193,"longitude":-56.0278,"population":586632},{"slug":"sweden","name":"Sweden","latitude":60.128161,"longitude":18.643501,"population":10099265},{"slug":"switzerland","name":"Switzerland","latitude":46.8182,"longitude":8.2275,"population":8654622},{"slug":"syria","name":"Syria","latitude":34.802075,"longitude":38.996815,"population":17500658},{"slug":"taiwan","name":"Taiwan*","latitude":23.7,"longitude":121,"population":23816775},{"slug":"tajikistan","name":"Tajikistan","latitude":38.861,"longitude":71.2761,"population":9537645},{"slug":"tanzania","name":"Tanzania","latitude":-6.369028,"longitude":34.888822,"population":59734218},{"slug":"thailand","name":"Thailand","latitude":15.870032,"longitude":100.992541,"population":69799978},{"slug":"timor-leste","name":"Timor-Leste","latitude":-8.874217,"longitude":125.727539,"population":1318445},{"slug":"togo","name":"Togo","latitude":8.6195,"longitude":0.8248,"population":8278724},{"slug":"trinidad-and-tobago","name":"Trinidad and Tobago","latitude":10.6918,"longitude":-61.2225,"population":1399488},{"slug":"tunisia","name":"Tunisia","latitude":33.886917,"longitude":9.537499,"population":11818619},{"slug":"turkey","name":"Turkey","latitude":38.9637,"longitude":35.2433,"population":84339067},{"slug":"us","name":"United States of America","latitude":40,"longitude":-100,"population":331002651},{"slug":"uganda","name":"Uganda","latitude":1.373333,"longitude":32.290275,"population":45741007},{"slug":"ukraine","name":"Ukraine","latitude":48.3794,"longitude":31.1656,"population":43733762},{"slug":"united-arab-emirates","name":"United Arab Emirates","latitude":23.424076,"longitude":53.847818,"population":9890402},{"slug":"united-kingdom--anguilla","name":"United Kingdom","province":"Anguilla","latitude":18.2206,"longitude":-63.0686,"population":15003},{"slug":"united-kingdom--bermuda","name":"United Kingdom","province":"Bermuda","latitude":32.3078,"longitude":-64.7505,"population":62278},{"slug":"united-kingdom--british-virgin-islands","name":"United Kingdom","province":"British Virgin Islands","latitude":18.4207,"longitude":-64.64,"population":30231},{"slug":"united-kingdom--cayman-islands","name":"United Kingdom","province":"Cayman Islands","latitude":19.3133,"longitude":-81.2546,"population":65722},{"slug":"united-kingdom--channel-islands","name":"United Kingdom","province":"Channel Islands","latitude":49.3723,"longitude":-2.3644,"population":173863},{"slug":"united-kingdom--falkland-islands-malvinas","name":"United Kingdom","province":"Falkland Islands (Malvinas)","latitude":-51.7963,"longitude":-59.5236,"population":3480},{"slug":"united-kingdom--gibraltar","name":"United Kingdom","province":"Gibraltar","latitude":36.1408,"longitude":-5.3536,"population":33691},{"slug":"united-kingdom--isle-of-man","name":"United Kingdom","province":"Isle of Man","latitude":54.2361,"longitude":-4.5481,"population":85033},{"slug":"united-kingdom--montserrat","name":"United Kingdom","province":"Montserrat","latitude":16.742498,"longitude":-62.187366,"population":4992},{"slug":"united-kingdom--turks-and-caicos-islands","name":"United Kingdom","province":"Turks and Caicos Islands","latitude":21.694,"longitude":-71.7979,"population":40397},{"slug":"united-kingdom","name":"United Kingdom","latitude":55.3781,"longitude":-3.436,"population":67886011},{"slug":"uruguay","name":"Uruguay","latitude":-32.5228,"longitude":-55.7658,"population":3473730},{"slug":"uzbekistan","name":"Uzbekistan","latitude":41.377491,"longitude":64.585262,"population":33469203},{"slug":"vanuatu","name":"Vanuatu","latitude":-15.3767,"longitude":166.9592,"population":307145},{"slug":"venezuela","name":"Venezuela","latitude":6.4238,"longitude":-66.5897,"population":28435940},{"slug":"vietnam","name":"Vietnam","latitude":14.058324,"longitude":108.277199,"population":97338579},{"slug":"west-bank-and-gaza","name":"West Bank and Gaza","latitude":31.9522,"longitude":35.2332,"population":4685306},{"slug":"western-sahara","name":"Western Sahara","latitude":24.2155,"longitude":-12.8858,"population":597339},{"slug":"yemen","name":"Yemen","latitude":15.552727,"longitude":48.516388,"population":29825964},{"slug":"zambia","name":"Zambia","latitude":-13.133897,"longitude":27.849332,"population":18383955},{"slug":"zimbabwe","name":"Zimbabwe","latitude":-19.015438,"longitude":29.154857,"population":14862924}]}
+{
+  "countriesAndProvinces": [
+    {
+      "slug": "afghanistan",
+      "name": "Afghanistan",
+      "latitude": 33.93911,
+      "longitude": 67.709953,
+      "population": 38928346
+    },
+    {
+      "slug": "albania",
+      "name": "Albania",
+      "latitude": 41.1533,
+      "longitude": 20.1683,
+      "population": 2877797
+    },
+    {
+      "slug": "algeria",
+      "name": "Algeria",
+      "latitude": 28.0339,
+      "longitude": 1.6596,
+      "population": 43851044
+    },
+    {
+      "slug": "andorra",
+      "name": "Andorra",
+      "latitude": 42.5063,
+      "longitude": 1.5218,
+      "population": 77265
+    },
+    {
+      "slug": "angola",
+      "name": "Angola",
+      "latitude": -11.2027,
+      "longitude": 17.8739,
+      "population": 32866272
+    },
+    {
+      "slug": "antigua-and-barbuda",
+      "name": "Antigua and Barbuda",
+      "latitude": 17.0608,
+      "longitude": -61.7964,
+      "population": 97929
+    },
+    {
+      "slug": "argentina",
+      "name": "Argentina",
+      "latitude": -38.4161,
+      "longitude": -63.6167,
+      "population": 45195774
+    },
+    {
+      "slug": "armenia",
+      "name": "Armenia",
+      "latitude": 40.0691,
+      "longitude": 45.0382,
+      "population": 2963243
+    },
+    {
+      "slug": "australia--australian-capital-territory",
+      "name": "Australia",
+      "province": "Australian Capital Territory",
+      "latitude": -35.4735,
+      "longitude": 149.0124,
+      "population": 418440
+    },
+    {
+      "slug": "australia--new-south-wales",
+      "name": "Australia",
+      "province": "New South Wales",
+      "latitude": -33.8688,
+      "longitude": 151.2093,
+      "population": 8157735
+    },
+    {
+      "slug": "australia--northern-territory",
+      "name": "Australia",
+      "province": "Northern Territory",
+      "latitude": -12.4634,
+      "longitude": 130.8456,
+      "population": 245353
+    },
+    {
+      "slug": "australia--queensland",
+      "name": "Australia",
+      "province": "Queensland",
+      "latitude": -27.4698,
+      "longitude": 153.0251,
+      "population": 5211289
+    },
+    {
+      "slug": "australia--south-australia",
+      "name": "Australia",
+      "province": "South Australia",
+      "latitude": -34.9285,
+      "longitude": 138.6007,
+      "population": 1767247
+    },
+    {
+      "slug": "australia--tasmania",
+      "name": "Australia",
+      "province": "Tasmania",
+      "latitude": -42.8821,
+      "longitude": 147.3272,
+      "population": 539590
+    },
+    {
+      "slug": "australia--victoria",
+      "name": "Australia",
+      "province": "Victoria",
+      "latitude": -37.8136,
+      "longitude": 144.9631,
+      "population": 6689377
+    },
+    {
+      "slug": "australia--western-australia",
+      "name": "Australia",
+      "province": "Western Australia",
+      "latitude": -31.9505,
+      "longitude": 115.8605,
+      "population": 2656156
+    },
+    {
+      "slug": "australia",
+      "name": "Australia",
+      "latitude": -25.2744,
+      "longitude": 133.7751,
+      "population": 25499884
+    },
+    {
+      "slug": "austria",
+      "name": "Austria",
+      "latitude": 47.5162,
+      "longitude": 14.5501,
+      "population": 9006398
+    },
+    {
+      "slug": "azerbaijan",
+      "name": "Azerbaijan",
+      "latitude": 40.1431,
+      "longitude": 47.5769,
+      "population": 10139177
+    },
+    {
+      "slug": "bahamas",
+      "name": "Bahamas",
+      "latitude": 25.025885,
+      "longitude": -78.035889,
+      "population": 393244
+    },
+    {
+      "slug": "bahrain",
+      "name": "Bahrain",
+      "latitude": 26.0275,
+      "longitude": 50.55,
+      "population": 1701575
+    },
+    {
+      "slug": "bangladesh",
+      "name": "Bangladesh",
+      "latitude": 23.685,
+      "longitude": 90.3563,
+      "population": 164689383
+    },
+    {
+      "slug": "barbados",
+      "name": "Barbados",
+      "latitude": 13.1939,
+      "longitude": -59.5432,
+      "population": 287375
+    },
+    {
+      "slug": "belarus",
+      "name": "Belarus",
+      "latitude": 53.7098,
+      "longitude": 27.9534,
+      "population": 9449323
+    },
+    {
+      "slug": "belgium",
+      "name": "Belgium",
+      "latitude": 50.8333,
+      "longitude": 4.469936,
+      "population": 11589623
+    },
+    {
+      "slug": "belize",
+      "name": "Belize",
+      "latitude": 17.1899,
+      "longitude": -88.4976,
+      "population": 397628
+    },
+    {
+      "slug": "benin",
+      "name": "Benin",
+      "latitude": 9.3077,
+      "longitude": 2.3158,
+      "population": 12123200
+    },
+    {
+      "slug": "bhutan",
+      "name": "Bhutan",
+      "latitude": 27.5142,
+      "longitude": 90.4336,
+      "population": 771608
+    },
+    {
+      "slug": "bolivia",
+      "name": "Bolivia",
+      "latitude": -16.2902,
+      "longitude": -63.5887,
+      "population": 11673021
+    },
+    {
+      "slug": "bosnia-and-herzegovina",
+      "name": "Bosnia and Herzegovina",
+      "latitude": 43.9159,
+      "longitude": 17.6791,
+      "population": 3280819
+    },
+    {
+      "slug": "botswana",
+      "name": "Botswana",
+      "latitude": -22.3285,
+      "longitude": 24.6849,
+      "population": 2351627
+    },
+    {
+      "slug": "brazil",
+      "name": "Brazil",
+      "latitude": -14.235,
+      "longitude": -51.9253,
+      "population": 212559417
+    },
+    {
+      "slug": "brunei",
+      "name": "Brunei",
+      "latitude": 4.5353,
+      "longitude": 114.7277,
+      "population": 428962
+    },
+    {
+      "slug": "bulgaria",
+      "name": "Bulgaria",
+      "latitude": 42.7339,
+      "longitude": 25.4858,
+      "population": 6948445
+    },
+    {
+      "slug": "burkina-faso",
+      "name": "Burkina Faso",
+      "latitude": 12.2383,
+      "longitude": -1.5616,
+      "population": 20903273
+    },
+    {
+      "slug": "burma",
+      "name": "Myanmar (Burma)",
+      "latitude": 21.9162,
+      "longitude": 95.956,
+      "population": 54409800
+    },
+    {
+      "slug": "burundi",
+      "name": "Burundi",
+      "latitude": -3.3731,
+      "longitude": 29.9189,
+      "population": 11890784
+    },
+    {
+      "slug": "cabo-verde",
+      "name": "Cabo Verde",
+      "latitude": 16.5388,
+      "longitude": -23.0418,
+      "population": 555987
+    },
+    {
+      "slug": "cambodia",
+      "name": "Cambodia",
+      "latitude": 11.55,
+      "longitude": 104.9167,
+      "population": 16718965
+    },
+    {
+      "slug": "cameroon",
+      "name": "Cameroon",
+      "latitude": 3.848,
+      "longitude": 11.5021,
+      "population": 26545863
+    },
+    {
+      "slug": "canada--alberta",
+      "name": "Canada",
+      "province": "Alberta",
+      "latitude": 53.9333,
+      "longitude": -116.5765,
+      "population": 4345737
+    },
+    {
+      "slug": "canada--british-columbia",
+      "name": "Canada",
+      "province": "British Columbia",
+      "latitude": 53.7267,
+      "longitude": -127.6476,
+      "population": 5020302
+    },
+    {
+      "slug": "canada--manitoba",
+      "name": "Canada",
+      "province": "Manitoba",
+      "latitude": 53.7609,
+      "longitude": -98.8139,
+      "population": 1360396
+    },
+    {
+      "slug": "canada--new-brunswick",
+      "name": "Canada",
+      "province": "New Brunswick",
+      "latitude": 46.5653,
+      "longitude": -66.4619,
+      "population": 772094
+    },
+    {
+      "slug": "canada--newfoundland-and-labrador",
+      "name": "Canada",
+      "province": "Newfoundland and Labrador",
+      "latitude": 53.1355,
+      "longitude": -57.6604,
+      "population": 523790
+    },
+    {
+      "slug": "canada--northwest-territories",
+      "name": "Canada",
+      "province": "Northwest Territories",
+      "latitude": 64.8255,
+      "longitude": -124.8457,
+      "population": 44598
+    },
+    {
+      "slug": "canada--nova-scotia",
+      "name": "Canada",
+      "province": "Nova Scotia",
+      "latitude": 44.682,
+      "longitude": -63.7443,
+      "population": 965382
+    },
+    {
+      "slug": "canada--nunavut",
+      "name": "Canada",
+      "province": "Nunavut",
+      "latitude": 70.453262,
+      "longitude": -86.798981,
+      "population": 39353
+    },
+    {
+      "slug": "canada--ontario",
+      "name": "Canada",
+      "province": "Ontario",
+      "latitude": 51.2538,
+      "longitude": -85.3232,
+      "population": 14446515
+    },
+    {
+      "slug": "canada--prince-edward-island",
+      "name": "Canada",
+      "province": "Prince Edward Island",
+      "latitude": 46.5107,
+      "longitude": -63.4168,
+      "population": 154748
+    },
+    {
+      "slug": "canada--quebec",
+      "name": "Canada",
+      "province": "Quebec",
+      "latitude": 52.9399,
+      "longitude": -73.5491,
+      "population": 8433301
+    },
+    {
+      "slug": "canada--saskatchewan",
+      "name": "Canada",
+      "province": "Saskatchewan",
+      "latitude": 52.9399,
+      "longitude": -106.4509,
+      "population": 1168423
+    },
+    {
+      "slug": "canada--yukon",
+      "name": "Canada",
+      "province": "Yukon",
+      "latitude": 64.2823,
+      "longitude": -135,
+      "population": 40369
+    },
+    {
+      "slug": "canada",
+      "name": "Canada",
+      "population": 37742154,
+      "latitude": 56.1304,
+      "longitude": 106.3468
+    },
+    {
+      "slug": "central-african-republic",
+      "name": "Central African Republic",
+      "latitude": 6.6111,
+      "longitude": 20.9394,
+      "population": 4829767
+    },
+    {
+      "slug": "chad",
+      "name": "Chad",
+      "latitude": 15.4542,
+      "longitude": 18.7322,
+      "population": 16425864
+    },
+    {
+      "slug": "chile",
+      "name": "Chile",
+      "latitude": -35.6751,
+      "longitude": -71.543,
+      "population": 19116201
+    },
+    {
+      "slug": "china--anhui",
+      "name": "China",
+      "province": "Anhui",
+      "latitude": 31.8257,
+      "longitude": 117.2264,
+      "population": 59500510
+    },
+    {
+      "slug": "china--beijing",
+      "name": "China",
+      "province": "Beijing",
+      "latitude": 40.1824,
+      "longitude": 116.4142,
+      "population": 19612368
+    },
+    {
+      "slug": "china--chongqing",
+      "name": "China",
+      "province": "Chongqing",
+      "latitude": 30.0572,
+      "longitude": 107.874,
+      "population": 28846170
+    },
+    {
+      "slug": "china--fujian",
+      "name": "China",
+      "province": "Fujian",
+      "latitude": 26.0789,
+      "longitude": 117.9874,
+      "population": 36894216
+    },
+    {
+      "slug": "china--gansu",
+      "name": "China",
+      "province": "Gansu",
+      "latitude": 35.7518,
+      "longitude": 104.2861,
+      "population": 25575254
+    },
+    {
+      "slug": "china--guangdong",
+      "name": "China",
+      "province": "Guangdong",
+      "latitude": 23.3417,
+      "longitude": 113.4244,
+      "population": 104303132
+    },
+    {
+      "slug": "china--guangxi",
+      "name": "China",
+      "province": "Guangxi",
+      "latitude": 23.8298,
+      "longitude": 108.7881,
+      "population": 46026629
+    },
+    {
+      "slug": "china--guizhou",
+      "name": "China",
+      "province": "Guizhou",
+      "latitude": 26.8154,
+      "longitude": 106.8748,
+      "population": 35806468
+    },
+    {
+      "slug": "china--hainan",
+      "name": "China",
+      "province": "Hainan",
+      "latitude": 19.1959,
+      "longitude": 109.7453,
+      "population": 9261518
+    },
+    {
+      "slug": "china--hebei",
+      "name": "China",
+      "province": "Hebei",
+      "latitude": 39.549,
+      "longitude": 116.1306,
+      "population": 71854202
+    },
+    {
+      "slug": "china--heilongjiang",
+      "name": "China",
+      "province": "Heilongjiang",
+      "latitude": 47.862,
+      "longitude": 127.7615,
+      "population": 38312224
+    },
+    {
+      "slug": "china--henan",
+      "name": "China",
+      "province": "Henan",
+      "latitude": 37.8957,
+      "longitude": 114.9042,
+      "population": 94023567
+    },
+    {
+      "slug": "china--hong-kong",
+      "name": "China",
+      "province": "Hong Kong",
+      "latitude": 22.3,
+      "longitude": 114.2,
+      "population": 7061200
+    },
+    {
+      "slug": "china--hubei",
+      "name": "China",
+      "province": "Hubei",
+      "latitude": 30.9756,
+      "longitude": 112.2707,
+      "population": 57237740
+    },
+    {
+      "slug": "china--hunan",
+      "name": "China",
+      "province": "Hunan",
+      "latitude": 27.6104,
+      "longitude": 111.7088,
+      "population": 65683722
+    },
+    {
+      "slug": "china--inner-mongolia",
+      "name": "China",
+      "province": "Inner Mongolia",
+      "latitude": 44.0935,
+      "longitude": 113.9448,
+      "population": 24706321
+    },
+    {
+      "slug": "china--jiangsu",
+      "name": "China",
+      "province": "Jiangsu",
+      "latitude": 32.9711,
+      "longitude": 119.455,
+      "population": 78659903
+    },
+    {
+      "slug": "china--jiangxi",
+      "name": "China",
+      "province": "Jiangxi",
+      "latitude": 27.614,
+      "longitude": 115.7221,
+      "population": 44567475
+    },
+    {
+      "slug": "china--jilin",
+      "name": "China",
+      "province": "Jilin",
+      "latitude": 43.6661,
+      "longitude": 126.1923,
+      "population": 27462297
+    },
+    {
+      "slug": "china--liaoning",
+      "name": "China",
+      "province": "Liaoning",
+      "latitude": 41.2956,
+      "longitude": 122.6085,
+      "population": 43746323
+    },
+    {
+      "slug": "china--macau",
+      "name": "China",
+      "province": "Macau",
+      "latitude": 22.1667,
+      "longitude": 113.55,
+      "population": 552503
+    },
+    {
+      "slug": "china--ningxia",
+      "name": "China",
+      "province": "Ningxia",
+      "latitude": 37.2692,
+      "longitude": 106.1655,
+      "population": 6176900
+    },
+    {
+      "slug": "china--qinghai",
+      "name": "China",
+      "province": "Qinghai",
+      "latitude": 35.7452,
+      "longitude": 95.9956,
+      "population": 5626722
+    },
+    {
+      "slug": "china--shaanxi",
+      "name": "China",
+      "province": "Shaanxi",
+      "latitude": 35.1917,
+      "longitude": 108.8701,
+      "population": 37327378
+    },
+    {
+      "slug": "china--shandong",
+      "name": "China",
+      "province": "Shandong",
+      "latitude": 36.3427,
+      "longitude": 118.1498,
+      "population": 100063065
+    },
+    {
+      "slug": "china--shanghai",
+      "name": "China",
+      "province": "Shanghai",
+      "latitude": 31.202,
+      "longitude": 121.4491,
+      "population": 23019148
+    },
+    {
+      "slug": "china--shanxi",
+      "name": "China",
+      "province": "Shanxi",
+      "latitude": 37.5777,
+      "longitude": 112.2922,
+      "population": 37022111
+    },
+    {
+      "slug": "china--sichuan",
+      "name": "China",
+      "province": "Sichuan",
+      "latitude": 30.6171,
+      "longitude": 102.7103,
+      "population": 80418200
+    },
+    {
+      "slug": "china--tianjin",
+      "name": "China",
+      "province": "Tianjin",
+      "latitude": 39.3054,
+      "longitude": 117.323,
+      "population": 12938224
+    },
+    {
+      "slug": "china--tibet",
+      "name": "China",
+      "province": "Tibet",
+      "latitude": 31.6927,
+      "longitude": 88.0924,
+      "population": 3002166
+    },
+    {
+      "slug": "china--xinjiang",
+      "name": "China",
+      "province": "Xinjiang",
+      "latitude": 41.1129,
+      "longitude": 85.2401,
+      "population": 21813334
+    },
+    {
+      "slug": "china--yunnan",
+      "name": "China",
+      "province": "Yunnan",
+      "latitude": 24.974,
+      "longitude": 101.487,
+      "population": 45966239
+    },
+    {
+      "slug": "china--zhejiang",
+      "name": "China",
+      "province": "Zhejiang",
+      "latitude": 29.1832,
+      "longitude": 120.0934,
+      "population": 54426891
+    },
+    {
+      "slug": "china",
+      "name": "China",
+      "latitude": 35.8617,
+      "longitude": 104.1954,
+      "population": 1439323776
+    },
+    {
+      "slug": "colombia",
+      "name": "Colombia",
+      "latitude": 4.5709,
+      "longitude": -74.2973,
+      "population": 50882891
+    },
+    {
+      "slug": "comoros",
+      "name": "Comoros",
+      "latitude": -11.6455,
+      "longitude": 43.3333,
+      "population": 869601
+    },
+    {
+      "slug": "congo-brazzaville",
+      "name": "Congo (Brazzaville)",
+      "latitude": -0.228,
+      "longitude": 15.8277,
+      "population": 5518087
+    },
+    {
+      "slug": "congo-kinshasa",
+      "name": "Congo (Kinshasa)",
+      "latitude": -4.0383,
+      "longitude": 21.7587,
+      "population": 89561403
+    },
+    {
+      "slug": "costa-rica",
+      "name": "Costa Rica",
+      "latitude": 9.7489,
+      "longitude": -83.7534,
+      "population": 5094118
+    },
+    {
+      "slug": "cote-divoire",
+      "name": "Cote d'Ivoire",
+      "latitude": 7.54,
+      "longitude": -5.5471,
+      "population": 26378274
+    },
+    {
+      "slug": "croatia",
+      "name": "Croatia",
+      "latitude": 45.1,
+      "longitude": 15.2,
+      "population": 4105267
+    },
+    {
+      "slug": "cuba",
+      "name": "Cuba",
+      "latitude": 21.521757,
+      "longitude": -77.781167,
+      "population": 11326616
+    },
+    {
+      "slug": "cyprus",
+      "name": "Cyprus",
+      "latitude": 35.1264,
+      "longitude": 33.4299,
+      "population": 1207359
+    },
+    {
+      "slug": "czechia",
+      "name": "Czech Republic",
+      "latitude": 49.8175,
+      "longitude": 15.473,
+      "population": 10708981
+    },
+    {
+      "slug": "denmark--faroe-islands",
+      "name": "Denmark",
+      "province": "Faroe Islands",
+      "latitude": 61.8926,
+      "longitude": -6.9118,
+      "population": 52154
+    },
+    {
+      "slug": "denmark--greenland",
+      "name": "Denmark",
+      "province": "Greenland",
+      "latitude": 71.7069,
+      "longitude": -42.6043,
+      "population": 56806
+    },
+    {
+      "slug": "denmark",
+      "name": "Denmark",
+      "latitude": 56.2639,
+      "longitude": 9.5018,
+      "population": 5792202
+    },
+    {
+      "slug": "djibouti",
+      "name": "Djibouti",
+      "latitude": 11.8251,
+      "longitude": 42.5903,
+      "population": 988000
+    },
+    {
+      "slug": "dominica",
+      "name": "Dominica",
+      "latitude": 15.415,
+      "longitude": -61.371,
+      "population": 71986
+    },
+    {
+      "slug": "dominican-republic",
+      "name": "Dominican Republic",
+      "latitude": 18.7357,
+      "longitude": -70.1627,
+      "population": 10847910
+    },
+    {
+      "slug": "ecuador",
+      "name": "Ecuador",
+      "latitude": -1.8312,
+      "longitude": -78.1834,
+      "population": 17643054
+    },
+    {
+      "slug": "egypt",
+      "name": "Egypt",
+      "latitude": 26.820553,
+      "longitude": 30.802498,
+      "population": 102334404
+    },
+    {
+      "slug": "el-salvador",
+      "name": "El Salvador",
+      "latitude": 13.7942,
+      "longitude": -88.8965,
+      "population": 6486205
+    },
+    {
+      "slug": "equatorial-guinea",
+      "name": "Equatorial Guinea",
+      "latitude": 1.6508,
+      "longitude": 10.2679,
+      "population": 1402985
+    },
+    {
+      "slug": "eritrea",
+      "name": "Eritrea",
+      "latitude": 15.1794,
+      "longitude": 39.7823,
+      "population": 3546421
+    },
+    {
+      "slug": "estonia",
+      "name": "Estonia",
+      "latitude": 58.5953,
+      "longitude": 25.0136,
+      "population": 1326535
+    },
+    {
+      "slug": "eswatini",
+      "name": "Eswatini",
+      "latitude": -26.5225,
+      "longitude": 31.4659,
+      "population": 1160164
+    },
+    {
+      "slug": "ethiopia",
+      "name": "Ethiopia",
+      "latitude": 9.145,
+      "longitude": 40.4897,
+      "population": 114963588
+    },
+    {
+      "slug": "fiji",
+      "name": "Fiji",
+      "latitude": -17.7134,
+      "longitude": 178.065,
+      "population": 896445
+    },
+    {
+      "slug": "finland",
+      "name": "Finland",
+      "latitude": 61.92411,
+      "longitude": 25.748151,
+      "population": 5540720
+    },
+    {
+      "slug": "france--french-guiana",
+      "name": "France",
+      "province": "French Guiana",
+      "latitude": 3.9339,
+      "longitude": -53.1258,
+      "population": 298682
+    },
+    {
+      "slug": "france--french-polynesia",
+      "name": "France",
+      "province": "French Polynesia",
+      "latitude": -17.6797,
+      "longitude": 149.4068,
+      "population": 280908
+    },
+    {
+      "slug": "france--guadeloupe",
+      "name": "France",
+      "province": "Guadeloupe",
+      "latitude": 16.265,
+      "longitude": -61.551,
+      "population": 400124
+    },
+    {
+      "slug": "france--martinique",
+      "name": "France",
+      "province": "Martinique",
+      "latitude": 14.6415,
+      "longitude": -61.0242,
+      "population": 375265
+    },
+    {
+      "slug": "france--mayotte",
+      "name": "France",
+      "province": "Mayotte",
+      "latitude": -12.8275,
+      "longitude": 45.166244,
+      "population": 272815
+    },
+    {
+      "slug": "france--new-caledonia",
+      "name": "France",
+      "province": "New Caledonia",
+      "latitude": -20.904305,
+      "longitude": 165.618042,
+      "population": 285498
+    },
+    {
+      "slug": "france--reunion",
+      "name": "France",
+      "province": "Réunion",
+      "latitude": -21.1151,
+      "longitude": 55.5364,
+      "population": 895312
+    },
+    {
+      "slug": "france--saint-barthelemy",
+      "name": "France",
+      "province": "Saint Barthélemy",
+      "latitude": 17.9,
+      "longitude": -62.8333,
+      "population": 9887
+    },
+    {
+      "slug": "france--saint-pierre-and-miquelon",
+      "name": "France",
+      "province": "Saint Pierre and Miquelon",
+      "latitude": 46.8852,
+      "longitude": -56.3159,
+      "population": 5794
+    },
+    {
+      "slug": "france--st-martin",
+      "name": "France",
+      "province": "St Martin",
+      "latitude": 18.0708,
+      "longitude": -63.0501,
+      "population": 38895
+    },
+    {
+      "slug": "france",
+      "name": "France",
+      "latitude": 46.2276,
+      "longitude": 2.2137,
+      "population": 65273511
+    },
+    {
+      "slug": "gabon",
+      "name": "Gabon",
+      "latitude": -0.8037,
+      "longitude": 11.6094,
+      "population": 2225734
+    },
+    {
+      "slug": "gambia",
+      "name": "Gambia",
+      "latitude": 13.4432,
+      "longitude": -15.3101,
+      "population": 2416668
+    },
+    {
+      "slug": "georgia",
+      "name": "Georgia",
+      "latitude": 42.3154,
+      "longitude": 43.3569,
+      "population": 3989167
+    },
+    {
+      "slug": "germany",
+      "name": "Germany",
+      "latitude": 51.165691,
+      "longitude": 10.451526,
+      "population": 83783942
+    },
+    {
+      "slug": "ghana",
+      "name": "Ghana",
+      "latitude": 7.9465,
+      "longitude": -1.0232,
+      "population": 31072940
+    },
+    {
+      "slug": "greece",
+      "name": "Greece",
+      "latitude": 39.0742,
+      "longitude": 21.8243,
+      "population": 10423054
+    },
+    {
+      "slug": "grenada",
+      "name": "Grenada",
+      "latitude": 12.1165,
+      "longitude": -61.679,
+      "population": 112523
+    },
+    {
+      "slug": "guatemala",
+      "name": "Guatemala",
+      "latitude": 15.7835,
+      "longitude": -90.2308,
+      "population": 17915568
+    },
+    {
+      "slug": "guinea",
+      "name": "Guinea",
+      "latitude": 9.9456,
+      "longitude": -9.6966,
+      "population": 13132795
+    },
+    {
+      "slug": "guinea-bissau",
+      "name": "Guinea-Bissau",
+      "latitude": 11.8037,
+      "longitude": -15.1804,
+      "population": 1968001
+    },
+    {
+      "slug": "guyana",
+      "name": "Guyana",
+      "latitude": 4.860416,
+      "longitude": -58.93018,
+      "population": 786552
+    },
+    {
+      "slug": "haiti",
+      "name": "Haiti",
+      "latitude": 18.9712,
+      "longitude": -72.2852,
+      "population": 11402528
+    },
+    {
+      "slug": "holy-see",
+      "name": "Holy See (Vatican)",
+      "latitude": 41.9029,
+      "longitude": 12.4534,
+      "population": 801
+    },
+    {
+      "slug": "honduras",
+      "name": "Honduras",
+      "latitude": 15.2,
+      "longitude": -86.2419,
+      "population": 9904607
+    },
+    {
+      "slug": "hungary",
+      "name": "Hungary",
+      "latitude": 47.1625,
+      "longitude": 19.5033,
+      "population": 9660351
+    },
+    {
+      "slug": "iceland",
+      "name": "Iceland",
+      "latitude": 64.9631,
+      "longitude": -19.0208,
+      "population": 341243
+    },
+    {
+      "slug": "india",
+      "name": "India",
+      "latitude": 20.593684,
+      "longitude": 78.96288,
+      "population": 1380004385
+    },
+    {
+      "slug": "indonesia",
+      "name": "Indonesia",
+      "latitude": -0.7893,
+      "longitude": 113.9213,
+      "population": 273523615
+    },
+    {
+      "slug": "iran",
+      "name": "Iran",
+      "latitude": 32.427908,
+      "longitude": 53.688046,
+      "population": 83992949
+    },
+    {
+      "slug": "iraq",
+      "name": "Iraq",
+      "latitude": 33.223191,
+      "longitude": 43.679291,
+      "population": 40222493
+    },
+    {
+      "slug": "ireland",
+      "name": "Ireland",
+      "latitude": 53.1424,
+      "longitude": -7.6921,
+      "population": 4937786
+    },
+    {
+      "slug": "israel",
+      "name": "Israel",
+      "latitude": 31.046051,
+      "longitude": 34.851612,
+      "population": 8655535
+    },
+    {
+      "slug": "italy",
+      "name": "Italy",
+      "latitude": 41.87194,
+      "longitude": 12.56738,
+      "population": 60461826
+    },
+    {
+      "slug": "jamaica",
+      "name": "Jamaica",
+      "latitude": 18.1096,
+      "longitude": -77.2975,
+      "population": 2961167
+    },
+    {
+      "slug": "japan",
+      "name": "Japan",
+      "latitude": 36.204824,
+      "longitude": 138.252924,
+      "population": 126476461
+    },
+    {
+      "slug": "jordan",
+      "name": "Jordan",
+      "latitude": 31.24,
+      "longitude": 36.51,
+      "population": 10203134
+    },
+    {
+      "slug": "kazakhstan",
+      "name": "Kazakhstan",
+      "latitude": 48.0196,
+      "longitude": 66.9237,
+      "population": 18776707
+    },
+    {
+      "slug": "kenya",
+      "name": "Kenya",
+      "latitude": -0.0236,
+      "longitude": 37.9062,
+      "population": 53771296
+    },
+    {
+      "slug": "korea-south",
+      "name": "Korea, South",
+      "latitude": 35.907757,
+      "longitude": 127.766922,
+      "population": 51269185
+    },
+    {
+      "slug": "kosovo",
+      "name": "Kosovo",
+      "latitude": 42.602636,
+      "longitude": 20.902977,
+      "population": 1810366
+    },
+    {
+      "slug": "kuwait",
+      "name": "Kuwait",
+      "latitude": 29.31166,
+      "longitude": 47.481766,
+      "population": 4270571
+    },
+    {
+      "slug": "kyrgyzstan",
+      "name": "Kyrgyzstan",
+      "latitude": 41.20438,
+      "longitude": 74.766098,
+      "population": 6524195
+    },
+    {
+      "slug": "laos",
+      "name": "Laos",
+      "latitude": 19.85627,
+      "longitude": 102.495496,
+      "population": 7275560
+    },
+    {
+      "slug": "latvia",
+      "name": "Latvia",
+      "latitude": 56.8796,
+      "longitude": 24.6032,
+      "population": 1886198
+    },
+    {
+      "slug": "lebanon",
+      "name": "Lebanon",
+      "latitude": 33.8547,
+      "longitude": 35.8623,
+      "population": 6825445
+    },
+    {
+      "slug": "lesotho",
+      "name": "Lesotho",
+      "latitude": -29.61,
+      "longitude": 28.2336,
+      "population": 2142249
+    },
+    {
+      "slug": "liberia",
+      "name": "Liberia",
+      "latitude": 6.428055,
+      "longitude": -9.429499,
+      "population": 5057681
+    },
+    {
+      "slug": "libya",
+      "name": "Libya",
+      "latitude": 26.3351,
+      "longitude": 17.228331,
+      "population": 6871292
+    },
+    {
+      "slug": "liechtenstein",
+      "name": "Liechtenstein",
+      "latitude": 47.14,
+      "longitude": 9.55,
+      "population": 38128
+    },
+    {
+      "slug": "lithuania",
+      "name": "Lithuania",
+      "latitude": 55.1694,
+      "longitude": 23.8813,
+      "population": 2722289
+    },
+    {
+      "slug": "luxembourg",
+      "name": "Luxembourg",
+      "latitude": 49.8153,
+      "longitude": 6.1296,
+      "population": 625978
+    },
+    {
+      "slug": "madagascar",
+      "name": "Madagascar",
+      "latitude": -18.766947,
+      "longitude": 46.869107,
+      "population": 27691018
+    },
+    {
+      "slug": "malawi",
+      "name": "Malawi",
+      "latitude": -13.2543,
+      "longitude": 34.3015,
+      "population": 19129952
+    },
+    {
+      "slug": "malaysia",
+      "name": "Malaysia",
+      "latitude": 4.210484,
+      "longitude": 101.975766,
+      "population": 32365999
+    },
+    {
+      "slug": "maldives",
+      "name": "Maldives",
+      "latitude": 3.2028,
+      "longitude": 73.2207,
+      "population": 540544
+    },
+    {
+      "slug": "mali",
+      "name": "Mali",
+      "latitude": 17.570692,
+      "longitude": -3.996166,
+      "population": 20250833
+    },
+    {
+      "slug": "malta",
+      "name": "Malta",
+      "latitude": 35.9375,
+      "longitude": 14.3754,
+      "population": 441543
+    },
+    {
+      "slug": "marshall-islands",
+      "name": "Marshall Islands",
+      "latitude": 7.1315,
+      "longitude": 171.1845,
+      "population": 59190
+    },
+    {
+      "slug": "mauritania",
+      "name": "Mauritania",
+      "latitude": 21.0079,
+      "longitude": -10.9408,
+      "population": 4649658
+    },
+    {
+      "slug": "mauritius",
+      "name": "Mauritius",
+      "latitude": -20.348404,
+      "longitude": 57.552152,
+      "population": 1271768
+    },
+    {
+      "slug": "mexico",
+      "name": "Mexico",
+      "latitude": 23.6345,
+      "longitude": -102.5528,
+      "population": 128932753
+    },
+    {
+      "slug": "moldova",
+      "name": "Moldova",
+      "latitude": 47.4116,
+      "longitude": 28.3699,
+      "population": 4033963
+    },
+    {
+      "slug": "monaco",
+      "name": "Monaco",
+      "latitude": 43.7333,
+      "longitude": 7.4167,
+      "population": 39242
+    },
+    {
+      "slug": "mongolia",
+      "name": "Mongolia",
+      "latitude": 46.8625,
+      "longitude": 103.8467,
+      "population": 3278290
+    },
+    {
+      "slug": "montenegro",
+      "name": "Montenegro",
+      "latitude": 42.708678,
+      "longitude": 19.37439,
+      "population": 628066
+    },
+    {
+      "slug": "morocco",
+      "name": "Morocco",
+      "latitude": 31.7917,
+      "longitude": -7.0926,
+      "population": 36910560
+    },
+    {
+      "slug": "mozambique",
+      "name": "Mozambique",
+      "latitude": -18.665695,
+      "longitude": 35.529562,
+      "population": 31255435
+    },
+    {
+      "slug": "namibia",
+      "name": "Namibia",
+      "latitude": -22.9576,
+      "longitude": 18.4904,
+      "population": 2540905
+    },
+    {
+      "slug": "nepal",
+      "name": "Nepal",
+      "latitude": 28.1667,
+      "longitude": 84.25,
+      "population": 29136808
+    },
+    {
+      "slug": "netherlands--aruba",
+      "name": "Netherlands",
+      "province": "Aruba",
+      "latitude": 12.5211,
+      "longitude": -69.9683,
+      "population": 106766
+    },
+    {
+      "slug": "netherlands--bonaire-sint-eustatius-and-saba",
+      "name": "Netherlands",
+      "province": "Bonaire, Sint Eustatius and Saba",
+      "latitude": 12.1784,
+      "longitude": -68.2385,
+      "population": 25987
+    },
+    {
+      "slug": "netherlands--curacao",
+      "name": "Netherlands",
+      "province": "Curacao",
+      "latitude": 12.1696,
+      "longitude": -68.99,
+      "population": 164093
+    },
+    {
+      "slug": "netherlands--sint-maarten",
+      "name": "Netherlands",
+      "province": "Sint Maarten",
+      "latitude": 18.0425,
+      "longitude": -63.0548,
+      "population": 43049
+    },
+    {
+      "slug": "netherlands",
+      "name": "Netherlands",
+      "latitude": 52.1326,
+      "longitude": 5.2913,
+      "population": 17134872
+    },
+    {
+      "slug": "new-zealand",
+      "name": "New Zealand",
+      "latitude": -40.9006,
+      "longitude": 174.886,
+      "population": 4822233
+    },
+    {
+      "slug": "nicaragua",
+      "name": "Nicaragua",
+      "latitude": 12.865416,
+      "longitude": -85.207229,
+      "population": 6624554
+    },
+    {
+      "slug": "niger",
+      "name": "Niger",
+      "latitude": 17.607789,
+      "longitude": 8.081666,
+      "population": 24206644
+    },
+    {
+      "slug": "nigeria",
+      "name": "Nigeria",
+      "latitude": 9.082,
+      "longitude": 8.6753,
+      "population": 206139589
+    },
+    {
+      "slug": "north-macedonia",
+      "name": "North Macedonia",
+      "latitude": 41.6086,
+      "longitude": 21.7453,
+      "population": 2083374
+    },
+    {
+      "slug": "norway",
+      "name": "Norway",
+      "latitude": 60.472,
+      "longitude": 8.4689,
+      "population": 5421241
+    },
+    {
+      "slug": "oman",
+      "name": "Oman",
+      "latitude": 21.512583,
+      "longitude": 55.923255,
+      "population": 5106626
+    },
+    {
+      "slug": "pakistan",
+      "name": "Pakistan",
+      "latitude": 30.3753,
+      "longitude": 69.3451,
+      "population": 220892340
+    },
+    {
+      "slug": "panama",
+      "name": "Panama",
+      "latitude": 8.538,
+      "longitude": -80.7821,
+      "population": 4314767
+    },
+    {
+      "slug": "papua-new-guinea",
+      "name": "Papua New Guinea",
+      "latitude": -6.314993,
+      "longitude": 143.95555,
+      "population": 8947024
+    },
+    {
+      "slug": "paraguay",
+      "name": "Paraguay",
+      "latitude": -23.4425,
+      "longitude": -58.4438,
+      "population": 7132538
+    },
+    {
+      "slug": "peru",
+      "name": "Peru",
+      "latitude": -9.19,
+      "longitude": -75.0152,
+      "population": 32971854
+    },
+    {
+      "slug": "philippines",
+      "name": "Philippines",
+      "latitude": 12.879721,
+      "longitude": 121.774017,
+      "population": 109581078
+    },
+    {
+      "slug": "poland",
+      "name": "Poland",
+      "latitude": 51.9194,
+      "longitude": 19.1451,
+      "population": 37846611
+    },
+    {
+      "slug": "portugal",
+      "name": "Portugal",
+      "latitude": 39.3999,
+      "longitude": -8.2245,
+      "population": 10196709
+    },
+    {
+      "slug": "qatar",
+      "name": "Qatar",
+      "latitude": 25.3548,
+      "longitude": 51.1839,
+      "population": 2881053
+    },
+    {
+      "slug": "romania",
+      "name": "Romania",
+      "latitude": 45.9432,
+      "longitude": 24.9668,
+      "population": 19237691
+    },
+    {
+      "slug": "russia",
+      "name": "Russia",
+      "latitude": 61.52401,
+      "longitude": 105.318756,
+      "population": 145934462
+    },
+    {
+      "slug": "rwanda",
+      "name": "Rwanda",
+      "latitude": -1.9403,
+      "longitude": 29.8739,
+      "population": 12952218
+    },
+    {
+      "slug": "saint-kitts-and-nevis",
+      "name": "Saint Kitts and Nevis",
+      "latitude": 17.357822,
+      "longitude": -62.782998,
+      "population": 57567
+    },
+    {
+      "slug": "saint-lucia",
+      "name": "Saint Lucia",
+      "latitude": 13.9094,
+      "longitude": -60.9789,
+      "population": 183627
+    },
+    {
+      "slug": "saint-vincent-and-the-grenadines",
+      "name": "Saint Vincent and the Grenadines",
+      "latitude": 12.9843,
+      "longitude": -61.2872,
+      "population": 110940
+    },
+    {
+      "slug": "san-marino",
+      "name": "San Marino",
+      "latitude": 43.9424,
+      "longitude": 12.4578,
+      "population": 33931
+    },
+    {
+      "slug": "sao-tome-and-principe",
+      "name": "Sao Tome and Principe",
+      "latitude": 0.1864,
+      "longitude": 6.6131,
+      "population": 219159
+    },
+    {
+      "slug": "saudi-arabia",
+      "name": "Saudi Arabia",
+      "latitude": 23.885942,
+      "longitude": 45.079162,
+      "population": 34813871
+    },
+    {
+      "slug": "senegal",
+      "name": "Senegal",
+      "latitude": 14.4974,
+      "longitude": -14.4524,
+      "population": 16743927
+    },
+    {
+      "slug": "serbia",
+      "name": "Serbia",
+      "latitude": 44.0165,
+      "longitude": 21.0059,
+      "population": 8737371
+    },
+    {
+      "slug": "seychelles",
+      "name": "Seychelles",
+      "latitude": -4.6796,
+      "longitude": 55.492,
+      "population": 98347
+    },
+    {
+      "slug": "sierra-leone",
+      "name": "Sierra Leone",
+      "latitude": 8.460555,
+      "longitude": -11.779889,
+      "population": 7976983
+    },
+    {
+      "slug": "singapore",
+      "name": "Singapore",
+      "latitude": 1.2833,
+      "longitude": 103.8333,
+      "population": 5850342
+    },
+    {
+      "slug": "slovakia",
+      "name": "Slovakia",
+      "latitude": 48.669,
+      "longitude": 19.699,
+      "population": 5459642
+    },
+    {
+      "slug": "slovenia",
+      "name": "Slovenia",
+      "latitude": 46.1512,
+      "longitude": 14.9955,
+      "population": 2078938
+    },
+    {
+      "slug": "solomon-islands",
+      "name": "Solomon Islands",
+      "latitude": -9.6457,
+      "longitude": 160.1562,
+      "population": 686884
+    },
+    {
+      "slug": "somalia",
+      "name": "Somalia",
+      "latitude": 5.152149,
+      "longitude": 46.199616,
+      "population": 15893222
+    },
+    {
+      "slug": "south-africa",
+      "name": "South Africa",
+      "latitude": -30.5595,
+      "longitude": 22.9375,
+      "population": 59308690
+    },
+    {
+      "slug": "south-sudan",
+      "name": "South Sudan",
+      "latitude": 6.877,
+      "longitude": 31.307,
+      "population": 11193725
+    },
+    {
+      "slug": "spain",
+      "name": "Spain",
+      "latitude": 40.463667,
+      "longitude": -3.74922,
+      "population": 46754778
+    },
+    {
+      "slug": "sri-lanka",
+      "name": "Sri Lanka",
+      "latitude": 7.873054,
+      "longitude": 80.771797,
+      "population": 21413249
+    },
+    {
+      "slug": "sudan",
+      "name": "Sudan",
+      "latitude": 12.8628,
+      "longitude": 30.2176,
+      "population": 43849260
+    },
+    {
+      "slug": "suriname",
+      "name": "Suriname",
+      "latitude": 3.9193,
+      "longitude": -56.0278,
+      "population": 586632
+    },
+    {
+      "slug": "sweden",
+      "name": "Sweden",
+      "latitude": 60.128161,
+      "longitude": 18.643501,
+      "population": 10099265
+    },
+    {
+      "slug": "switzerland",
+      "name": "Switzerland",
+      "latitude": 46.8182,
+      "longitude": 8.2275,
+      "population": 8654622
+    },
+    {
+      "slug": "syria",
+      "name": "Syria",
+      "latitude": 34.802075,
+      "longitude": 38.996815,
+      "population": 17500658
+    },
+    {
+      "slug": "taiwan",
+      "name": "Taiwan*",
+      "latitude": 23.7,
+      "longitude": 121,
+      "population": 23816775
+    },
+    {
+      "slug": "tajikistan",
+      "name": "Tajikistan",
+      "latitude": 38.861,
+      "longitude": 71.2761,
+      "population": 9537645
+    },
+    {
+      "slug": "tanzania",
+      "name": "Tanzania",
+      "latitude": -6.369028,
+      "longitude": 34.888822,
+      "population": 59734218
+    },
+    {
+      "slug": "thailand",
+      "name": "Thailand",
+      "latitude": 15.870032,
+      "longitude": 100.992541,
+      "population": 69799978
+    },
+    {
+      "slug": "timor-leste",
+      "name": "Timor-Leste",
+      "latitude": -8.874217,
+      "longitude": 125.727539,
+      "population": 1318445
+    },
+    {
+      "slug": "togo",
+      "name": "Togo",
+      "latitude": 8.6195,
+      "longitude": 0.8248,
+      "population": 8278724
+    },
+    {
+      "slug": "trinidad-and-tobago",
+      "name": "Trinidad and Tobago",
+      "latitude": 10.6918,
+      "longitude": -61.2225,
+      "population": 1399488
+    },
+    {
+      "slug": "tunisia",
+      "name": "Tunisia",
+      "latitude": 33.886917,
+      "longitude": 9.537499,
+      "population": 11818619
+    },
+    {
+      "slug": "turkey",
+      "name": "Turkey",
+      "latitude": 38.9637,
+      "longitude": 35.2433,
+      "population": 84339067
+    },
+    {
+      "slug": "us",
+      "name": "United States of America",
+      "latitude": 40,
+      "longitude": -100,
+      "population": 331002651
+    },
+    {
+      "slug": "uganda",
+      "name": "Uganda",
+      "latitude": 1.373333,
+      "longitude": 32.290275,
+      "population": 45741007
+    },
+    {
+      "slug": "ukraine",
+      "name": "Ukraine",
+      "latitude": 48.3794,
+      "longitude": 31.1656,
+      "population": 43733762
+    },
+    {
+      "slug": "united-arab-emirates",
+      "name": "United Arab Emirates",
+      "latitude": 23.424076,
+      "longitude": 53.847818,
+      "population": 9890402
+    },
+    {
+      "slug": "united-kingdom--anguilla",
+      "name": "United Kingdom",
+      "province": "Anguilla",
+      "latitude": 18.2206,
+      "longitude": -63.0686,
+      "population": 15003
+    },
+    {
+      "slug": "united-kingdom--bermuda",
+      "name": "United Kingdom",
+      "province": "Bermuda",
+      "latitude": 32.3078,
+      "longitude": -64.7505,
+      "population": 62278
+    },
+    {
+      "slug": "united-kingdom--british-virgin-islands",
+      "name": "United Kingdom",
+      "province": "British Virgin Islands",
+      "latitude": 18.4207,
+      "longitude": -64.64,
+      "population": 30231
+    },
+    {
+      "slug": "united-kingdom--cayman-islands",
+      "name": "United Kingdom",
+      "province": "Cayman Islands",
+      "latitude": 19.3133,
+      "longitude": -81.2546,
+      "population": 65722
+    },
+    {
+      "slug": "united-kingdom--channel-islands",
+      "name": "United Kingdom",
+      "province": "Channel Islands",
+      "latitude": 49.3723,
+      "longitude": -2.3644,
+      "population": 173863
+    },
+    {
+      "slug": "united-kingdom--falkland-islands-malvinas",
+      "name": "United Kingdom",
+      "province": "Falkland Islands (Malvinas)",
+      "latitude": -51.7963,
+      "longitude": -59.5236,
+      "population": 3480
+    },
+    {
+      "slug": "united-kingdom--gibraltar",
+      "name": "United Kingdom",
+      "province": "Gibraltar",
+      "latitude": 36.1408,
+      "longitude": -5.3536,
+      "population": 33691
+    },
+    {
+      "slug": "united-kingdom--isle-of-man",
+      "name": "United Kingdom",
+      "province": "Isle of Man",
+      "latitude": 54.2361,
+      "longitude": -4.5481,
+      "population": 85033
+    },
+    {
+      "slug": "united-kingdom--montserrat",
+      "name": "United Kingdom",
+      "province": "Montserrat",
+      "latitude": 16.742498,
+      "longitude": -62.187366,
+      "population": 4992
+    },
+    {
+      "slug": "united-kingdom--turks-and-caicos-islands",
+      "name": "United Kingdom",
+      "province": "Turks and Caicos Islands",
+      "latitude": 21.694,
+      "longitude": -71.7979,
+      "population": 40397
+    },
+    {
+      "slug": "united-kingdom",
+      "name": "United Kingdom",
+      "latitude": 55.3781,
+      "longitude": -3.436,
+      "population": 67886011
+    },
+    {
+      "slug": "uruguay",
+      "name": "Uruguay",
+      "latitude": -32.5228,
+      "longitude": -55.7658,
+      "population": 3473730
+    },
+    {
+      "slug": "uzbekistan",
+      "name": "Uzbekistan",
+      "latitude": 41.377491,
+      "longitude": 64.585262,
+      "population": 33469203
+    },
+    {
+      "slug": "vanuatu",
+      "name": "Vanuatu",
+      "latitude": -15.3767,
+      "longitude": 166.9592,
+      "population": 307145
+    },
+    {
+      "slug": "venezuela",
+      "name": "Venezuela",
+      "latitude": 6.4238,
+      "longitude": -66.5897,
+      "population": 28435940
+    },
+    {
+      "slug": "vietnam",
+      "name": "Vietnam",
+      "latitude": 14.058324,
+      "longitude": 108.277199,
+      "population": 97338579
+    },
+    {
+      "slug": "west-bank-and-gaza",
+      "name": "West Bank and Gaza",
+      "latitude": 31.9522,
+      "longitude": 35.2332,
+      "population": 4685306
+    },
+    {
+      "slug": "western-sahara",
+      "name": "Western Sahara",
+      "latitude": 24.2155,
+      "longitude": -12.8858,
+      "population": 597339
+    },
+    {
+      "slug": "yemen",
+      "name": "Yemen",
+      "latitude": 15.552727,
+      "longitude": 48.516388,
+      "population": 29825964
+    },
+    {
+      "slug": "zambia",
+      "name": "Zambia",
+      "latitude": -13.133897,
+      "longitude": 27.849332,
+      "population": 18383955
+    },
+    {
+      "slug": "zimbabwe",
+      "name": "Zimbabwe",
+      "latitude": -19.015438,
+      "longitude": 29.154857,
+      "population": 14862924
+    }
+  ]
+}
