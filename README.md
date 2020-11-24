@@ -1,4 +1,4 @@
-# COVID-19 data
+# COVID-19 API
 
 This repository contains COVID-19 data in JSON format.
 
