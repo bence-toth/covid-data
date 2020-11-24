@@ -307,6 +307,10 @@ Promise.all(requests)
         fs.writeFileSync(`data/cumulative-recovered-cases-per-million/${slug}.json`, JSON.stringify({
           cumulativeRecoveredCasesPerMillion
         }))
+
+        fs.writeFileSync(`data/daily-recovered-cases/${slug}.json`, JSON.stringify({
+          dailyRecoveredCases
+        }))
       })
     })
 
