@@ -268,51 +268,51 @@ Promise.all(requests)
           dailyRecoveredCasesPerMillion
         }))
 
-        fs.writeFileSync(`data/cumulative-deaths/${slug}.json`, JSON.stringify({
+        fs.writeFileSync(`data/died/cumulative/exact/${slug}.json`, JSON.stringify({
           cumulativeDeaths
         }))
 
-        fs.writeFileSync(`data/cumulative-deaths-per-million/${slug}.json`, JSON.stringify({
+        fs.writeFileSync(`data/died/cumulative/per-million/${slug}.json`, JSON.stringify({
           cumulativeDeathsPerMillion
         }))
 
-        fs.writeFileSync(`data/daily-deaths/${slug}.json`, JSON.stringify({
+        fs.writeFileSync(`data/died/daily/exact/${slug}.json`, JSON.stringify({
           dailyDeaths
         }))
 
-        fs.writeFileSync(`data/daily-deaths-per-million/${slug}.json`, JSON.stringify({
+        fs.writeFileSync(`data/died/daily/per-million/${slug}.json`, JSON.stringify({
           dailyDeathsPerMillion
         }))
 
-        fs.writeFileSync(`data/cumulative-confirmed-cases/${slug}.json`, JSON.stringify({
+        fs.writeFileSync(`data/confirmed/cumulative/exact/${slug}.json`, JSON.stringify({
           cumulativeConfirmedCases
         }))
 
-        fs.writeFileSync(`data/cumulative-confirmed-cases-per-million/${slug}.json`, JSON.stringify({
+        fs.writeFileSync(`data/confirmed/cumulative/per-million/${slug}.json`, JSON.stringify({
           cumulativeConfirmedCasesPerMillion
         }))
 
-        fs.writeFileSync(`data/daily-confirmed-cases/${slug}.json`, JSON.stringify({
+        fs.writeFileSync(`data/confirmed/daily/exact/${slug}.json`, JSON.stringify({
           dailyConfirmedCases
         }))
 
-        fs.writeFileSync(`data/daily-confirmed-cases-per-million/${slug}.json`, JSON.stringify({
+        fs.writeFileSync(`data/confirmed/daily/per-million/${slug}.json`, JSON.stringify({
           dailyConfirmedCasesPerMillion
         }))
 
-        fs.writeFileSync(`data/cumulative-recovered-cases/${slug}.json`, JSON.stringify({
+        fs.writeFileSync(`data/recovered/cumulative/exact/${slug}.json`, JSON.stringify({
           cumulativeRecoveredCases
         }))
 
-        fs.writeFileSync(`data/cumulative-recovered-cases-per-million/${slug}.json`, JSON.stringify({
+        fs.writeFileSync(`data/recovered/cumulative/per-million/${slug}.json`, JSON.stringify({
           cumulativeRecoveredCasesPerMillion
         }))
 
-        fs.writeFileSync(`data/daily-recovered-cases/${slug}.json`, JSON.stringify({
+        fs.writeFileSync(`data/recovered/daily/exact/${slug}.json`, JSON.stringify({
           dailyRecoveredCases
         }))
 
-        fs.writeFileSync(`data/daily-recovered-cases-per-million/${slug}.json`, JSON.stringify({
+        fs.writeFileSync(`data/recovered/daily/per-million/${slug}.json`, JSON.stringify({
           dailyRecoveredCasesPerMillion
         }))
       })
