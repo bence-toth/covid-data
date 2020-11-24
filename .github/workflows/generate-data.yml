@@ -1,8 +1,6 @@
 name: Generate data and open PR
 
 on:
-  pull_request:
-    types: [labeled]
   schedule:
     - cron:  '0 8 * * *'
 jobs:
