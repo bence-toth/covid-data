@@ -85,6 +85,29 @@ fetch('https://raw.githubusercontent.com/bence-toth/covid-data/main/data/confirm
 ```
 
 
+### Confirmed cases per one million inhabitants, daily
+
+The daily confirmed cases per one million inhabitants for countries and provinces are available in the JSON files in the `data/confirmed/daily/per-million/` folder.
+
+These files contain a JSON object with only one key `dailyConfirmedCasesPerMillion` which is an array of numbers.
+
+You can fetch the data contained in one of these files by sending a `GET` request to:
+
+```
+https://raw.githubusercontent.com/bence-toth/covid-data/main/data/confirmed/daily/per-million/SLUG.json
+```
+
+Where `SLUG` is to be replaced with the slug of the country or province.
+
+For example:
+
+```js
+fetch('https://raw.githubusercontent.com/bence-toth/covid-data/main/data/confirmed/daily/per-million/canada.json')
+  .then(response => response.json())
+  .then(result => {
+    console.log(result.dailyConfirmedCasesPerMillion)
+  })
+```
 
 ### Deaths
 
