@@ -253,7 +253,7 @@ Promise.all(requests)
             : null
         )
 
-        fs.writeFileSync(`data/${slug}.json`, JSON.stringify({
+        fs.writeFileSync(`data/entire-dataset/${slug}.json`, JSON.stringify({
           cumulativeDeaths,
           cumulativeDeathsPerMillion,
           dailyDeaths,
