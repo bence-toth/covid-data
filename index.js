@@ -291,6 +291,10 @@ Promise.all(requests)
         fs.writeFileSync(`data/cumulative-confirmed-cases-per-million/${slug}.json`, JSON.stringify({
           cumulativeConfirmedCasesPerMillion
         }))
+
+        fs.writeFileSync(`data/daily-confirmed-cases/${slug}.json`, JSON.stringify({
+          dailyConfirmedCases
+        }))
       })
     })
 
