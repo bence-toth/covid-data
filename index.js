@@ -279,6 +279,10 @@ Promise.all(requests)
         fs.writeFileSync(`data/daily-deaths/${slug}.json`, JSON.stringify({
           dailyDeaths
         }))
+
+        fs.writeFileSync(`data/daily-deaths-per-million/${slug}.json`, JSON.stringify({
+          dailyDeathsPerMillion
+        }))
       })
     })
 
