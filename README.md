@@ -310,6 +310,31 @@ fetch('https://raw.githubusercontent.com/bence-toth/covid-data/main/data/recover
 ```
 
 
+### Recoveries, cumulative
+
+The cumulative recoveries for countries and provinces are available in the JSON files in the `data/recovered/cumulative/exact/` folder.
+
+These files contain a JSON object with only one key `cumulativeRecoveredCases` which is an array of numbers.
+
+You can fetch the data contained in one of these files by sending a `GET` request to:
+
+```
+https://raw.githubusercontent.com/bence-toth/covid-data/main/data/recovered/cumulative/exact/SLUG.json
+```
+
+Where `SLUG` is to be replaced with the slug of the country or province.
+
+For example:
+
+```js
+fetch('https://raw.githubusercontent.com/bence-toth/covid-data/main/data/recovered/cumulative/exact/canada.json')
+  .then(response => response.json())
+  .then(result => {
+    console.log(result.cumulativeRecoveredCases)
+  })
+```
+
+
 ## Acknowledgments
 
 The data is fetched from [the GitHub repository](https://github.com/CSSEGISandData/COVID-19) of the 2019 Novel Coronavirus Visual Dashboard, which is operated by the Johns Hopkins University Center for Systems Science and Engineering, and it is updated daily.
