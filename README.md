@@ -360,6 +360,57 @@ fetch('https://raw.githubusercontent.com/bence-toth/covid-data/main/data/recover
 ```
 
 
+### Full datasets
+
+The full datasets for countries and provinces are available in the JSON files in the `data/entire-dataset/` folder.
+
+These files contain a JSON object with the following keys:
+
+- `cumulativeConfirmedCases`
+- `cumulativeConfirmedCasesPerMillion`
+- `dailyConfirmedCases`
+- `dailyConfirmedCasesPerMillion`
+- `cumulativeDeaths`
+- `cumulativeDeathsPerMillion`
+- `dailyDeaths`
+- `dailyDeathsPerMillion`
+- `cumulativeRecoveredCases`
+- `cumulativeRecoveredCasesPerMillion`
+- `dailyRecoveredCases`
+- `dailyRecoveredCasesPerMillion`
+
+The values are arrays of numbers.
+
+You can fetch the data contained in one of these files by sending a `GET` request to:
+
+```
+https://raw.githubusercontent.com/bence-toth/covid-data/main/data/entire-dataset/SLUG.json
+```
+
+Where `SLUG` is to be replaced with the slug of the country or province.
+
+For example:
+
+```js
+fetch('https://raw.githubusercontent.com/bence-toth/covid-data/main/data/entire-dataset/canada.json')
+  .then(response => response.json())
+  .then(result => {
+    console.log(cumulativeConfirmedCases)
+    console.log(cumulativeConfirmedCasesPerMillion)
+    console.log(dailyConfirmedCases)
+    console.log(dailyConfirmedCasesPerMillion)
+    console.log(cumulativeDeaths)
+    console.log(cumulativeDeathsPerMillion)
+    console.log(dailyDeaths)
+    console.log(dailyDeathsPerMillion)
+    console.log(cumulativeRecoveredCases)
+    console.log(cumulativeRecoveredCasesPerMillion)
+    console.log(dailyRecoveredCases)
+    console.log(dailyRecoveredCasesPerMillion)
+  })
+```
+
+
 ## Acknowledgments
 
 The data is fetched from [the GitHub repository](https://github.com/CSSEGISandData/COVID-19) of the 2019 Novel Coronavirus Visual Dashboard, which is operated by the Johns Hopkins University Center for Systems Science and Engineering, and it is updated daily.
