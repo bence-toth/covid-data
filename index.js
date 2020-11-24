@@ -2,7 +2,7 @@ const fetch = require('node-fetch')
 const parse = require('csv-parse')
 const fs = require('fs')
 
-const {countriesAndProvinces: countries} = JSON.parse(fs.readFileSync('./countries.json'));
+const {countriesAndProvinces: countries} = JSON.parse(fs.readFileSync('./data/countries.json'));
 
 const output = []
 
