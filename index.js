@@ -267,6 +267,10 @@ Promise.all(requests)
           dailyRecoveredCases,
           dailyRecoveredCasesPerMillion
         }))
+
+        fs.writeFileSync(`data/cumulative-deaths/${slug}.json`, JSON.stringify({
+          cumulativeDeaths
+        }))
       })
     })
 
