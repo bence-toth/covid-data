@@ -202,6 +202,12 @@ Promise.all(requests)
         if (slug.includes('grand-princess')) {
           return
         }
+        if (slug.includes('canada--repatriated-travellers')) {
+          return
+        }
+        if (!countries.find(country => country.slug === slug)) {
+          console.log(slug)
+        }
         const {population} = countries.find(country => country.slug === slug)
 
         const cumulativeDeaths = deaths || null
