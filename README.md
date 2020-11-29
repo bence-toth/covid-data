@@ -413,9 +413,9 @@ fetch('https://raw.githubusercontent.com/bence-toth/covid-data/main/data/entire-
 ```
 
 
-## Acknowledgments
+## Acknowledgements
 
-The COVID data is fetched from [the GitHub repository](https://github.com/CSSEGISandData/COVID-19) of the 2019 Novel Coronavirus Visual Dashboard, which is operated by the Johns Hopkins University Center for Systems Science and Engineering, and it is updated daily.
+The COVID data is fetched from [the GitHub repository](https://github.com/CSSEGISandData/COVID-19) of the 2019 Novel Coronavirus Visual Dashboard, which is operated by the [Johns Hopkins University Center for Systems Science and Engineering](https://systems.jhu.edu/), and it is updated daily.
 
 Population data and latitude/longitude of countries and provinces were collected from various sources, including [Word Population Review](https://worldpopulationreview.com) and [Wikipedia](https://en.wikipedia.org/wiki/Main_Page).
 
