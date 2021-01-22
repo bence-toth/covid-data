@@ -1328,6 +1328,13 @@
       "population": 128932753
     },
     {
+      "slug": "micronesia",
+      "name": "Micronesia",
+      "latitude": 6.8874813,
+      "longitude": 158.2150717,
+      "population": 548914
+    },
+    {
       "slug": "moldova",
       "name": "Moldova",
       "latitude": 47.4116,
