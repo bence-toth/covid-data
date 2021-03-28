@@ -2,7 +2,7 @@ name: Generate data and open PR
 
 on:
   schedule:
-    - cron:  '0 8 * * *'
+    - cron:  '0 6 * * *'
 jobs:
   generate-and-open-pr:
     runs-on: ubuntu-latest
