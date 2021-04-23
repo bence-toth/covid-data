@@ -188,6 +188,9 @@ Promise.all(requests).then(([deaths, confirmed, recovered]) => {
 
     output.forEach((countryData) => {
       const { slug, deaths, confirmed, recovered } = countryData;
+      if (slug.includes("china--unknown")) {
+        return;
+      }
       if (slug.includes("diamond-princess")) {
         return;
       }
