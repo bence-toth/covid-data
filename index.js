@@ -131,9 +131,9 @@ Promise.all(requests).then(([deaths, confirmed, recovered]) => {
           province: record[0],
           country: record[1],
         });
-        output.find(
-          (country) => country.slug === slug
-        ).confirmed = record.slice(4).map(Number);
+        output.find((country) => country.slug === slug).confirmed = record
+          .slice(4)
+          .map(Number);
       } else {
         isConfirmedHeaderRow = false;
       }
@@ -201,6 +201,9 @@ Promise.all(requests).then(([deaths, confirmed, recovered]) => {
         return;
       }
       if (slug.includes("canada--repatriated-travellers")) {
+        return;
+      }
+      if (slug.includes("summer-olympics")) {
         return;
       }
       if (!countries.find((country) => country.slug === slug)) {
