@@ -35,6 +35,17 @@ let isDeathsHeaderRow = true;
 let isConfirmedHeaderRow = true;
 let isRecoveredHeaderRow = true;
 
+const fillInZeroGaps = (data) => {
+  data.forEach((item, index) => {
+    if (index > 0) {
+      if (item === 0 && data[index - 1] > 0) {
+        data[index] = data[index - 1];
+      }
+    }
+  });
+  return data;
+};
+
 const calculateDailyData = (data) => {
   const dailyData = [];
   for (let i = data.length - 1; i > 0; --i) {
@@ -213,7 +224,7 @@ Promise.all(requests).then(([deaths, confirmed, recovered]) => {
       }
       const { population } = countries.find((country) => country.slug === slug);
 
-      const cumulativeDeaths = deaths || null;
+      const cumulativeDeaths = deaths ? fillInZeroGaps(deaths) : null;
       const cumulativeDeathsPerMillion = cumulativeDeaths
         ? calculatePerMillion(cumulativeDeaths, population)
         : null;
@@ -221,7 +232,9 @@ Promise.all(requests).then(([deaths, confirmed, recovered]) => {
       const dailyDeathsPerMillion = dailyDeaths
         ? calculatePerMillion(dailyDeaths, population)
         : null;
-      const cumulativeConfirmedCases = confirmed || null;
+      const cumulativeConfirmedCases = confirmed
+        ? fillInZeroGaps(confirmed)
+        : null;
       const cumulativeConfirmedCasesPerMillion = cumulativeConfirmedCases
         ? calculatePerMillion(cumulativeConfirmedCases, population)
         : null;
@@ -231,7 +244,9 @@ Promise.all(requests).then(([deaths, confirmed, recovered]) => {
       const dailyConfirmedCasesPerMillion = dailyConfirmedCases
         ? calculatePerMillion(dailyConfirmedCases, population)
         : null;
-      const cumulativeRecoveredCases = recovered || null;
+      const cumulativeRecoveredCases = recovered
+        ? fillInZeroGaps(recovered)
+        : null;
       const cumulativeRecoveredCasesPerMillion = cumulativeRecoveredCases
         ? calculatePerMillion(cumulativeRecoveredCases, population)
         : null;
