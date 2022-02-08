@@ -217,6 +217,9 @@ Promise.all(requests).then(([deaths, confirmed, recovered]) => {
       if (slug.includes("summer-olympics")) {
         return;
       }
+      if (slug.includes("winter-olympics")) {
+        return;
+      }
       if (!countries.find((country) => country.slug === slug)) {
         console.error(
           `\n  ERROR: Couldn't find matching slug for: ${slug}\n\n`
