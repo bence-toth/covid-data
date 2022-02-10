@@ -199,25 +199,17 @@ Promise.all(requests).then(([deaths, confirmed, recovered]) => {
 
     output.forEach((countryData) => {
       const { slug, deaths, confirmed, recovered } = countryData;
-      if (slug.includes("china--unknown")) {
-        return;
-      }
-      if (slug.includes("diamond-princess")) {
-        return;
-      }
-      if (slug.includes("ms-zaandam")) {
-        return;
-      }
-      if (slug.includes("grand-princess")) {
-        return;
-      }
-      if (slug.includes("canada--repatriated-travellers")) {
-        return;
-      }
-      if (slug.includes("summer-olympics")) {
-        return;
-      }
-      if (slug.includes("winter-olympics")) {
+      const exceptions = [
+        "antarctica",
+        "china--unknown",
+        "diamond-princess",
+        "ms-zaandam",
+        "grand-princess",
+        "canada--repatriated-travellers",
+        "summer-olympics",
+        "winter-olympics",
+      ];
+      if (exceptions.some((exception) => slug.includes(exception))) {
         return;
       }
       if (!countries.find((country) => country.slug === slug)) {
