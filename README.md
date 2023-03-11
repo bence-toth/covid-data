@@ -2,7 +2,7 @@
 
 This repository contains COVID-19 data in JSON format.
 
-## This dataset is no longer updated
+## ⚠️ This dataset is no longer updated
 
 On 10 March 2023 the Johns Hopkins Coronavirus Resource Center ceased its collecting and reporting of global COVID-19 data, and therefore this dataset is no longer updated.
 
