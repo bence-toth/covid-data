@@ -2,6 +2,16 @@
 
 This repository contains COVID-19 data in JSON format.
 
+> ## This dataset is no longer updated
+>
+> On 10 March 2023 the Johns Hopkins Coronavirus Resource Center ceased its collecting and reporting of global COVID-19 data, and therefore this dataset is no longer updated.
+>
+> For updated cases, deaths, and vaccine data please visit the following sources:
+>
+> - Global: [World Health Organization (WHO)](https://www.who.int/)
+> - U.S.: [U.S. Centers for Disease Control and Prevention (CDC)](https://www.cdc.gov/coronavirus/2019-ncov/index.html)
+>
+> For more information, visit the [Johns Hopkins Coronavirus Resource Center](https://coronavirus.jhu.edu/).
 
 ## API
 
@@ -10,7 +20,6 @@ The dataset contains the number of confirmed cases, the number of recoveries, an
 The first day of the dataset is 22 January 2020.
 
 You can fetch the data using HTTP.
-
 
 ### Counties and provinces
 
@@ -54,13 +63,14 @@ https://raw.githubusercontent.com/bence-toth/covid-data/main/data/countries.json
 For example:
 
 ```js
-fetch('https://raw.githubusercontent.com/bence-toth/covid-data/main/data/countries.json')
-  .then(response => response.json())
-  .then(result => {
-    console.log(result.countriesAndProvinces)
-  })
+fetch(
+  "https://raw.githubusercontent.com/bence-toth/covid-data/main/data/countries.json"
+)
+  .then((response) => response.json())
+  .then((result) => {
+    console.log(result.countriesAndProvinces);
+  });
 ```
-
 
 ### Confirmed cases, daily
 
@@ -79,13 +89,14 @@ Where `SLUG` is to be replaced with the slug of the country or province.
 For example:
 
 ```js
-fetch('https://raw.githubusercontent.com/bence-toth/covid-data/main/data/confirmed/daily/exact/canada.json')
-  .then(response => response.json())
-  .then(result => {
-    console.log(result.dailyConfirmedCases)
-  })
+fetch(
+  "https://raw.githubusercontent.com/bence-toth/covid-data/main/data/confirmed/daily/exact/canada.json"
+)
+  .then((response) => response.json())
+  .then((result) => {
+    console.log(result.dailyConfirmedCases);
+  });
 ```
-
 
 ### Confirmed cases per one million inhabitants, daily
 
@@ -104,13 +115,14 @@ Where `SLUG` is to be replaced with the slug of the country or province.
 For example:
 
 ```js
-fetch('https://raw.githubusercontent.com/bence-toth/covid-data/main/data/confirmed/daily/per-million/canada.json')
-  .then(response => response.json())
-  .then(result => {
-    console.log(result.dailyConfirmedCasesPerMillion)
-  })
+fetch(
+  "https://raw.githubusercontent.com/bence-toth/covid-data/main/data/confirmed/daily/per-million/canada.json"
+)
+  .then((response) => response.json())
+  .then((result) => {
+    console.log(result.dailyConfirmedCasesPerMillion);
+  });
 ```
-
 
 ### Confirmed cases, cumulative
 
@@ -129,13 +141,14 @@ Where `SLUG` is to be replaced with the slug of the country or province.
 For example:
 
 ```js
-fetch('https://raw.githubusercontent.com/bence-toth/covid-data/main/data/confirmed/cumulative/exact/canada.json')
-  .then(response => response.json())
-  .then(result => {
-    console.log(result.cumulativeConfirmedCases)
-  })
+fetch(
+  "https://raw.githubusercontent.com/bence-toth/covid-data/main/data/confirmed/cumulative/exact/canada.json"
+)
+  .then((response) => response.json())
+  .then((result) => {
+    console.log(result.cumulativeConfirmedCases);
+  });
 ```
-
 
 ### Confirmed cases per one million inhabitants, cumulative
 
@@ -154,13 +167,14 @@ Where `SLUG` is to be replaced with the slug of the country or province.
 For example:
 
 ```js
-fetch('https://raw.githubusercontent.com/bence-toth/covid-data/main/data/confirmed/cumulative/per-million/canada.json')
-  .then(response => response.json())
-  .then(result => {
-    console.log(result.cumulativeConfirmedCasesPerMillion)
-  })
+fetch(
+  "https://raw.githubusercontent.com/bence-toth/covid-data/main/data/confirmed/cumulative/per-million/canada.json"
+)
+  .then((response) => response.json())
+  .then((result) => {
+    console.log(result.cumulativeConfirmedCasesPerMillion);
+  });
 ```
-
 
 ### Deaths, daily
 
@@ -179,13 +193,14 @@ Where `SLUG` is to be replaced with the slug of the country or province.
 For example:
 
 ```js
-fetch('https://raw.githubusercontent.com/bence-toth/covid-data/main/data/died/daily/exact/canada.json')
-  .then(response => response.json())
-  .then(result => {
-    console.log(result.dailyDeaths)
-  })
+fetch(
+  "https://raw.githubusercontent.com/bence-toth/covid-data/main/data/died/daily/exact/canada.json"
+)
+  .then((response) => response.json())
+  .then((result) => {
+    console.log(result.dailyDeaths);
+  });
 ```
-
 
 ### Deaths per one million inhabitants, daily
 
@@ -204,13 +219,14 @@ Where `SLUG` is to be replaced with the slug of the country or province.
 For example:
 
 ```js
-fetch('https://raw.githubusercontent.com/bence-toth/covid-data/main/data/died/daily/per-million/canada.json')
-  .then(response => response.json())
-  .then(result => {
-    console.log(result.dailyDeathsPerMillion)
-  })
+fetch(
+  "https://raw.githubusercontent.com/bence-toth/covid-data/main/data/died/daily/per-million/canada.json"
+)
+  .then((response) => response.json())
+  .then((result) => {
+    console.log(result.dailyDeathsPerMillion);
+  });
 ```
-
 
 ### Deaths, cumulative
 
@@ -229,13 +245,14 @@ Where `SLUG` is to be replaced with the slug of the country or province.
 For example:
 
 ```js
-fetch('https://raw.githubusercontent.com/bence-toth/covid-data/main/data/died/cumulative/exact/canada.json')
-  .then(response => response.json())
-  .then(result => {
-    console.log(result.cumulativeDeaths)
-  })
+fetch(
+  "https://raw.githubusercontent.com/bence-toth/covid-data/main/data/died/cumulative/exact/canada.json"
+)
+  .then((response) => response.json())
+  .then((result) => {
+    console.log(result.cumulativeDeaths);
+  });
 ```
-
 
 ### Deaths per one million inhabitants, cumulative
 
@@ -254,13 +271,14 @@ Where `SLUG` is to be replaced with the slug of the country or province.
 For example:
 
 ```js
-fetch('https://raw.githubusercontent.com/bence-toth/covid-data/main/data/died/cumulative/per-million/canada.json')
-  .then(response => response.json())
-  .then(result => {
-    console.log(result.cumulativeDeathsPerMillion)
-  })
+fetch(
+  "https://raw.githubusercontent.com/bence-toth/covid-data/main/data/died/cumulative/per-million/canada.json"
+)
+  .then((response) => response.json())
+  .then((result) => {
+    console.log(result.cumulativeDeathsPerMillion);
+  });
 ```
-
 
 ### Recoveries, daily
 
@@ -279,13 +297,14 @@ Where `SLUG` is to be replaced with the slug of the country or province.
 For example:
 
 ```js
-fetch('https://raw.githubusercontent.com/bence-toth/covid-data/main/data/recovered/daily/exact/canada.json')
-  .then(response => response.json())
-  .then(result => {
-    console.log(result.dailyRecoveredCases)
-  })
+fetch(
+  "https://raw.githubusercontent.com/bence-toth/covid-data/main/data/recovered/daily/exact/canada.json"
+)
+  .then((response) => response.json())
+  .then((result) => {
+    console.log(result.dailyRecoveredCases);
+  });
 ```
-
 
 ### Recoveries per one million inhabitants, daily
 
@@ -304,13 +323,14 @@ Where `SLUG` is to be replaced with the slug of the country or province.
 For example:
 
 ```js
-fetch('https://raw.githubusercontent.com/bence-toth/covid-data/main/data/recovered/daily/per-million/canada.json')
-  .then(response => response.json())
-  .then(result => {
-    console.log(result.dailyRecoveredCasesPerMillion)
-  })
+fetch(
+  "https://raw.githubusercontent.com/bence-toth/covid-data/main/data/recovered/daily/per-million/canada.json"
+)
+  .then((response) => response.json())
+  .then((result) => {
+    console.log(result.dailyRecoveredCasesPerMillion);
+  });
 ```
-
 
 ### Recoveries, cumulative
 
@@ -329,13 +349,14 @@ Where `SLUG` is to be replaced with the slug of the country or province.
 For example:
 
 ```js
-fetch('https://raw.githubusercontent.com/bence-toth/covid-data/main/data/recovered/cumulative/exact/canada.json')
-  .then(response => response.json())
-  .then(result => {
-    console.log(result.cumulativeRecoveredCases)
-  })
+fetch(
+  "https://raw.githubusercontent.com/bence-toth/covid-data/main/data/recovered/cumulative/exact/canada.json"
+)
+  .then((response) => response.json())
+  .then((result) => {
+    console.log(result.cumulativeRecoveredCases);
+  });
 ```
-
 
 ### Recoveries per one million inhabitants, cumulative
 
@@ -354,13 +375,14 @@ Where `SLUG` is to be replaced with the slug of the country or province.
 For example:
 
 ```js
-fetch('https://raw.githubusercontent.com/bence-toth/covid-data/main/data/recovered/cumulative/per-million/canada.json')
-  .then(response => response.json())
-  .then(result => {
-    console.log(result.cumulativeRecoveredCasesPerMillion)
-  })
+fetch(
+  "https://raw.githubusercontent.com/bence-toth/covid-data/main/data/recovered/cumulative/per-million/canada.json"
+)
+  .then((response) => response.json())
+  .then((result) => {
+    console.log(result.cumulativeRecoveredCasesPerMillion);
+  });
 ```
-
 
 ### Full datasets
 
@@ -394,31 +416,31 @@ Where `SLUG` is to be replaced with the slug of the country or province.
 For example:
 
 ```js
-fetch('https://raw.githubusercontent.com/bence-toth/covid-data/main/data/entire-dataset/canada.json')
-  .then(response => response.json())
-  .then(result => {
-    console.log(result.cumulativeConfirmedCases)
-    console.log(result.cumulativeConfirmedCasesPerMillion)
-    console.log(result.dailyConfirmedCases)
-    console.log(result.dailyConfirmedCasesPerMillion)
-    console.log(result.cumulativeDeaths)
-    console.log(result.cumulativeDeathsPerMillion)
-    console.log(result.dailyDeaths)
-    console.log(result.dailyDeathsPerMillion)
-    console.log(result.cumulativeRecoveredCases)
-    console.log(result.cumulativeRecoveredCasesPerMillion)
-    console.log(result.dailyRecoveredCases)
-    console.log(result.dailyRecoveredCasesPerMillion)
-  })
+fetch(
+  "https://raw.githubusercontent.com/bence-toth/covid-data/main/data/entire-dataset/canada.json"
+)
+  .then((response) => response.json())
+  .then((result) => {
+    console.log(result.cumulativeConfirmedCases);
+    console.log(result.cumulativeConfirmedCasesPerMillion);
+    console.log(result.dailyConfirmedCases);
+    console.log(result.dailyConfirmedCasesPerMillion);
+    console.log(result.cumulativeDeaths);
+    console.log(result.cumulativeDeathsPerMillion);
+    console.log(result.dailyDeaths);
+    console.log(result.dailyDeathsPerMillion);
+    console.log(result.cumulativeRecoveredCases);
+    console.log(result.cumulativeRecoveredCasesPerMillion);
+    console.log(result.dailyRecoveredCases);
+    console.log(result.dailyRecoveredCasesPerMillion);
+  });
 ```
-
 
 ## Acknowledgements
 
 The COVID data is fetched from [the GitHub repository](https://github.com/CSSEGISandData/COVID-19) of the 2019 Novel Coronavirus Visual Dashboard, which is operated by the [Johns Hopkins University Center for Systems Science and Engineering](https://systems.jhu.edu/), and it is updated daily.
 
 Population data and latitude/longitude of countries and provinces were collected from various sources, including [Word Population Review](https://worldpopulationreview.com) and [Wikipedia](https://en.wikipedia.org/wiki/Main_Page).
-
 
 ## License
 
