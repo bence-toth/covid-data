@@ -2,16 +2,16 @@
 
 This repository contains COVID-19 data in JSON format.
 
-> ## This dataset is no longer updated
->
-> On 10 March 2023 the Johns Hopkins Coronavirus Resource Center ceased its collecting and reporting of global COVID-19 data, and therefore this dataset is no longer updated.
->
-> For updated cases, deaths, and vaccine data please visit the following sources:
->
-> - Global: [World Health Organization (WHO)](https://www.who.int/)
-> - U.S.: [U.S. Centers for Disease Control and Prevention (CDC)](https://www.cdc.gov/coronavirus/2019-ncov/index.html)
->
-> For more information, visit the [Johns Hopkins Coronavirus Resource Center](https://coronavirus.jhu.edu/).
+## This dataset is no longer updated
+
+On 10 March 2023 the Johns Hopkins Coronavirus Resource Center ceased its collecting and reporting of global COVID-19 data, and therefore this dataset is no longer updated.
+
+For updated cases, deaths, and vaccine data please visit the following sources:
+
+- Global: [World Health Organization (WHO)](https://www.who.int/)
+- U.S.: [U.S. Centers for Disease Control and Prevention (CDC)](https://www.cdc.gov/coronavirus/2019-ncov/index.html)
+
+For more information, visit the [Johns Hopkins Coronavirus Resource Center](https://coronavirus.jhu.edu/).
 
 ## API
 
